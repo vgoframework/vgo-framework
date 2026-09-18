@@ -7,7 +7,7 @@
 [![Framework](https://img.shields.io/badge/framework-open-brightgreen)](GOVERNANCE.md)
 [![Initiated by Omseek](https://img.shields.io/badge/initiated%20by-Omseek-6C5CE7)](#origin-and-stewardship)
 
-[中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Integrity & Defense](INTEGRITY-AND-DEFENSE.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
+[Official Website](https://vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Integrity & Defense](INTEGRITY-AND-DEFENSE.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
 ---
 
@@ -159,9 +159,9 @@ The open framework is intentionally distinguishable from any specific Omseek pro
 
 ## Cite VGO
 
-Until a formal academic citation artifact is introduced, use:
+GitHub can read the repository's [CITATION.cff](CITATION.cff) metadata. A human-readable citation is:
 
-> VGO Framework. *Visibility Growth Optimization (VGO) Framework*. Version 1.0 Draft, 2026. Initiated by Omseek. https://github.com/zhangdegit2025/vgo-framework
+> VGO Framework. *Visibility Growth Optimization (VGO) Framework*. Version 1.0 Draft, 2026. Initiated by Omseek. https://vgoframework.org
 
 For version-specific references, cite the relevant GitHub release/tag.
 
@@ -174,6 +174,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md) befor
 ## License
 
 The framework documentation and methodology are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [LICENSE](LICENSE).
+
+**Brand rights are separate from the documentation license.** CC BY 4.0 does not by itself grant trademark rights or permission to imply official status, endorsement, certification, sponsorship, or affiliation. See [TRADEMARK.md](TRADEMARK.md).
 
 ---
 
