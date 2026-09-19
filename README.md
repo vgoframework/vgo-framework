@@ -2,7 +2,7 @@
 
 **Visibility Growth Optimization — an open framework for trusted visibility across search, generative AI, and emerging discovery interfaces.**
 
-[![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/zhangdegit2025/vgo-framework/releases/tag/v1.0.0-draft)
+[![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
 [![Framework](https://img.shields.io/badge/framework-open-brightgreen)](GOVERNANCE.md)
 [![Initiated by Omseek](https://img.shields.io/badge/initiated%20by-Omseek-6C5CE7)](#origin-and-stewardship)
@@ -179,4 +179,4 @@ The framework documentation and methodology are released under **Creative Common
 
 ---
 
-**Current release:** [VGO Framework v1.0.0-draft](https://github.com/zhangdegit2025/vgo-framework/releases/tag/v1.0.0-draft)
+**Current release:** [VGO Framework v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
