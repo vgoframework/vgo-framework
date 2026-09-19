@@ -6,7 +6,7 @@ version: "1.0.0-draft"
 date-released: 2026-09-19
 license: CC-BY-4.0
 url: "https://vgoframework.org"
-repository-code: "https://github.com/zhangdegit2025/vgo-framework"
+repository-code: "https://github.com/vgoframework/vgo-framework"
 abstract: >-
   An open framework for systematically increasing trusted visibility,
   discoverability, understanding, mentions, and citations across search
