@@ -1,5 +1,9 @@
 # VGO Terminology
 
+**Reading copy:** https://www.vgoframework.org/docs/terminology  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 **VGO** — Visibility Growth Optimization; 可见度增长优化.  
 **Trusted Visibility** — 可验证、相关、准确且来源可信的可见度.  
 **Discovery Surface** — 用户或机器发现实体/信息的入口，包括搜索、AI答案、Agent等.  

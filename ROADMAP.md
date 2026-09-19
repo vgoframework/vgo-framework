@@ -1,5 +1,9 @@
 # VGO Roadmap
 
+**Reading copy:** https://www.vgoframework.org/docs/roadmap  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 ## 1.0 — Foundation
 - Core definition and seven pillars
 - SEO/GEO relationship

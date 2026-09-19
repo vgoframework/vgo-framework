@@ -2,7 +2,7 @@
 
 **VGO — Visibility Growth Optimization（可见度增长优化）**
 
-[English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [完整性与投毒防御](INTEGRITY-AND-DEFENSE.md) · [参与贡献](CONTRIBUTING.md)
+[English](README.md) · [阅读副本](https://www.vgoframework.org/docs) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [完整性与投毒防御](INTEGRITY-AND-DEFENSE.md) · [参与贡献](CONTRIBUTING.md)
 
 ## 什么是 VGO？
 

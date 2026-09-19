@@ -1,5 +1,9 @@
 # Changelog
 
+**Reading copy:** https://www.vgoframework.org/updates/v1-0-0-draft  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 ## 1.0.0-draft — 2026-09-19
 - Introduced VGO: Visibility Growth Optimization.
 - Defined seven core pillars.

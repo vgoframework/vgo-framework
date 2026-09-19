@@ -1,5 +1,9 @@
 # Contributing to VGO
 
+**Reading copy:** https://www.vgoframework.org/docs/contributing  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 Contributions are welcome through Issues and Pull Requests.
 
 Good contributions include: clearer definitions, reproducible measurement methods, documented research, new discovery-surface considerations, integrity/defense improvements, case-study templates and corrections.

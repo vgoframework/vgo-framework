@@ -1,5 +1,9 @@
 # VGO Research Agenda
 
+**Reading copy:** https://www.vgoframework.org/docs/research-agenda  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 VGO should evolve through falsifiable questions rather than marketing claims.
 
 Priority questions:

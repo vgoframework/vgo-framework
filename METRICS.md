@@ -1,5 +1,9 @@
 # VGO Metrics 1.0
 
+**Reading copy:** https://www.vgoframework.org/docs/metrics  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 VGO deliberately separates **raw metrics** from a **composite model**. Implementations should publish their exact measurement methodology.
 
 ## Visibility

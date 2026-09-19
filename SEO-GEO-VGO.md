@@ -1,5 +1,9 @@
 # SEO, GEO and VGO
 
+**Reading copy:** https://www.vgoframework.org/docs/seo-geo-vgo  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 | Dimension | SEO | GEO | VGO |
 |---|---|---|---|
 | Primary surface | Search engines | Generative/answer systems | All relevant discovery surfaces |

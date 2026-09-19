@@ -7,7 +7,7 @@
 [![Framework](https://img.shields.io/badge/framework-open-brightgreen)](GOVERNANCE.md)
 [![Initiated by Omseek](https://img.shields.io/badge/initiated%20by-Omseek-6C5CE7)](#origin-and-stewardship)
 
-[Official Website](https://vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Integrity & Defense](INTEGRITY-AND-DEFENSE.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
+[Official Website](https://www.vgoframework.org) · [Docs](https://www.vgoframework.org/docs) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Integrity & Defense](INTEGRITY-AND-DEFENSE.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
 ---
 
@@ -119,20 +119,22 @@ See [INTEGRITY-AND-DEFENSE.md](INTEGRITY-AND-DEFENSE.md).
 
 ## Documentation
 
-| Document | Purpose |
-| --- | --- |
-| [VGO-FRAMEWORK.md](VGO-FRAMEWORK.md) | Core framework specification |
-| [PRINCIPLES.md](PRINCIPLES.md) | Framework principles |
-| [METRICS.md](METRICS.md) | Metrics and measurement model |
-| [SEO-GEO-VGO.md](SEO-GEO-VGO.md) | Relationship between SEO, GEO, and VGO |
-| [TERMINOLOGY.md](TERMINOLOGY.md) | Common terminology |
-| [INTEGRITY-AND-DEFENSE.md](INTEGRITY-AND-DEFENSE.md) | Integrity and defensive framework |
-| [RESEARCH-AGENDA.md](RESEARCH-AGENDA.md) | Open research questions |
-| [CASE-STUDY-TEMPLATE.md](CASE-STUDY-TEMPLATE.md) | Reproducible case-study format |
-| [GOVERNANCE.md](GOVERNANCE.md) | Governance model |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution process |
-| [ROADMAP.md](ROADMAP.md) | Framework roadmap |
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
+Official reading copies for **v1.0.0-draft** are published in [Docs](https://www.vgoframework.org/docs).
+
+| Document | Reading copy | Purpose |
+| --- | --- | --- |
+| [VGO-FRAMEWORK.md](VGO-FRAMEWORK.md) | [docs/framework](https://www.vgoframework.org/docs/framework) | Core framework specification |
+| [PRINCIPLES.md](PRINCIPLES.md) | [docs/principles](https://www.vgoframework.org/docs/principles) | Framework principles |
+| [METRICS.md](METRICS.md) | [docs/metrics](https://www.vgoframework.org/docs/metrics) | Metrics and measurement model |
+| [SEO-GEO-VGO.md](SEO-GEO-VGO.md) | [docs/seo-geo-vgo](https://www.vgoframework.org/docs/seo-geo-vgo) | Relationship between SEO, GEO, and VGO |
+| [TERMINOLOGY.md](TERMINOLOGY.md) | [docs/terminology](https://www.vgoframework.org/docs/terminology) | Common terminology |
+| [INTEGRITY-AND-DEFENSE.md](INTEGRITY-AND-DEFENSE.md) | [docs/integrity-and-defense](https://www.vgoframework.org/docs/integrity-and-defense) | Integrity and defensive framework |
+| [RESEARCH-AGENDA.md](RESEARCH-AGENDA.md) | [docs/research-agenda](https://www.vgoframework.org/docs/research-agenda) | Open research questions |
+| [CASE-STUDY-TEMPLATE.md](CASE-STUDY-TEMPLATE.md) | [docs/case-study-template](https://www.vgoframework.org/docs/case-study-template) | Reproducible case-study format |
+| [GOVERNANCE.md](GOVERNANCE.md) | [docs/governance](https://www.vgoframework.org/docs/governance) | Governance model |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | [docs/contributing](https://www.vgoframework.org/docs/contributing) | Contribution process |
+| [ROADMAP.md](ROADMAP.md) | [docs/roadmap](https://www.vgoframework.org/docs/roadmap) | Framework roadmap |
+| [CHANGELOG.md](CHANGELOG.md) | [updates/v1-0-0-draft](https://www.vgoframework.org/updates/v1-0-0-draft) | Version history |
 
 ## Quick start
 

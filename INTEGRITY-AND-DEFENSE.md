@@ -1,5 +1,9 @@
 # Visibility Integrity & Poisoning Defense
 
+**Reading copy:** https://www.vgoframework.org/docs/integrity-and-defense  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 ## Objective
 Protect the accuracy, provenance and trustworthiness of an entity's representation across search and AI discovery systems.
 

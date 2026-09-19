@@ -1,5 +1,9 @@
 # VGO Framework 1.0
 
+**Reading copy:** https://www.vgoframework.org/docs/framework  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 ## 1. Purpose
 VGO provides a common framework for organizations seeking durable visibility across search, generative AI and emerging discovery systems without sacrificing accuracy, provenance or trust.
 

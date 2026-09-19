@@ -1,5 +1,9 @@
 # VGO Case Study Template
 
+**Reading copy:** https://www.vgoframework.org/docs/case-study-template  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 ## Context
 Entity, market, period, discovery surfaces and business objective.
 

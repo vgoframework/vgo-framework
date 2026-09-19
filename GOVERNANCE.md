@@ -1,5 +1,9 @@
 # Governance
 
+**Reading copy:** https://www.vgoframework.org/docs/governance  
+**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+
+
 The VGO Framework is an open methodology initiated and maintained by Omseek.
 
 ## Roles
