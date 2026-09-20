@@ -1,52 +1,72 @@
 # VGO Metrics 1.0
 
-**Reading copy:** https://www.vgoframework.org/docs/metrics  
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
-VGO deliberately separates **raw metrics** from **qualified/effective visibility** and from any **composite model**.
+## 1. Measurement principle
 
-A measurement system should not assume that every query, prompt, mention or discovery opportunity has equal value. Sampling should reflect real user needs and relevant decision contexts where practical.
+VGO separates **raw exposure**, **Effective Visibility**, and **business outcomes**.
 
-The framework defines what should be measured conceptually; it does not prescribe a universal commercial scoring recipe, fixed weighting model or implementation algorithm.
+A measurement system should not assume that every query, prompt, ranking, mention, citation, or discovery opportunity has equal value.
 
-## Visibility
-- Search Visibility Share (SVS)
-- Generative Mention Share (GMS)
-- Citation Share (CS)
-- Query/Prompt Coverage (QPC)
-- Qualified Discovery Reach (QDR)
+Measurement should begin with a defined population of users, needs, intents, problem spaces, and relevant Visibility Surfaces.
 
-## Intent & relevance
-- High-Value Problem Space Coverage (HPSC)
-- Intent-Relevant Visibility Rate (IRVR)
-- Contextual Relevance Rate (CRR)
+## 2. What should be observed
 
-These metrics are conceptual categories. What constitutes a high-value problem space or qualified intent depends on the entity, audience and use case and should be documented by each implementation.
+A VGO measurement program may observe:
 
-## Quality & authority
-- Source Authority Mix (SAM)
-- Citation Diversity (CD)
-- Entity Consistency Rate (ECR)
-- Factual Accuracy Rate (FAR)
+- discovery and coverage across relevant search and generative contexts;
+- relevance to real user needs and high-value intent;
+- accuracy and consistency of entity facts;
+- source quality, authority, corroboration, and citation diversity;
+- presence in understanding, comparison, recommendation, and selection contexts;
+- first-party asset coverage and maintainability;
+- downstream observable outcomes where appropriate;
+- integrity risks, conflicting claims, and provenance issues;
+- change over time using comparable sampling.
 
-## Integrity
-- Poisoning/Anomaly Incidence (PAI)
-- Untrusted Source Exposure (USE)
-- False/Conflicting Claim Rate (FCR)
-- Mean Time to Detect (MTTD)
-- Mean Time to Correct/Recover (MTTC/R)
+## 3. Effective Visibility
 
-## Growth & outcomes
-- Visibility Growth Rate (VGR)
-- Trusted Visibility Growth Rate (TVGR)
-- Visibility-to-Outcome Conversion (VOC)
+Conceptually:
 
-Where first-party analytics are available, implementations may also observe traffic sources, content engagement, key-page behavior and conversion trends. These signals improve observability but should not be presented as perfect causal attribution, especially across multi-touch or cross-device journeys.
+**Effective Visibility = Right Audience × Right Intent × Right Surface × Right Presence**
 
-## Conceptual composite
+This model communicates the logic of Effective Visibility. It is **not** a universal mathematical equation and should not be presented as a fixed scientific scoring formula.
 
-`TVG = Reach × Relevance × Authority × Integrity × Persistence`
+## 4. Measurement quality
 
-Do not present this conceptual equation as a universal scientific constant. Implementations may operationalize these dimensions differently and should document enough methodology for results to be interpretable and comparable.
+Implementations should document, where practical:
 
-The VGO Framework intentionally does not define proprietary weighting, prioritization, intent-discovery or automation algorithms.
+- what population or audience is being evaluated;
+- which intents or problem spaces are included;
+- which Visibility Surfaces are sampled;
+- the sampling period and frequency;
+- how observations are normalized or compared;
+- known uncertainty and data limitations.
+
+## 5. Outcomes and attribution
+
+Where first-party analytics are available, organizations may observe traffic, engagement, key-page behavior, leads, conversions, or other outcomes.
+
+These signals improve observability but do not create perfect causal attribution. Multi-touch, cross-device, opaque search systems, and opaque AI systems can prevent deterministic claims.
+
+## 6. Composite indices
+
+Composite indices can be useful for diagnosis and communication, but the VGO Framework does not require one universal public score.
+
+Any composite score should disclose enough about its conceptual dimensions and limitations to be interpretable. Commercial implementations may use proprietary models.
+
+## 7. Public / proprietary boundary
+
+The open VGO Framework defines **measurement principles and conceptual standards**.
+
+It intentionally does **not** publish:
+- proprietary scoring weights;
+- normalization formulas;
+- intent-discovery algorithms;
+- high-value scoring logic;
+- opportunity-prioritization algorithms;
+- automation rules;
+- commercial diagnosis recipes;
+- implementation-specific competitive intelligence methods.
+
+This boundary allows the methodology to remain open while implementations can develop differentiated technology and operational systems.
