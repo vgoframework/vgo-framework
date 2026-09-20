@@ -65,7 +65,7 @@ VGO separates raw exposure from effective visibility. Public framework measureme
 
 The open framework defines what meaningful measurement should consider. It intentionally does **not** publish proprietary weighting models, intent-discovery algorithms, prioritization logic, automation recipes, or commercial implementation methods.
 
-See [METRICS.md](METRICS.md).
+See [METRICS.md](METRICS.md). For a testable, scenario-level assessment procedure, see the proposed [Public Evaluation Protocol (Draft 0.1)](EVALUATION-PROTOCOL.md). Its illustrative cases are fictional, and the protocol has not been independently validated.
 
 ## Integrity
 
