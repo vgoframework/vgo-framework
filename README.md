@@ -1,184 +1,92 @@
 # VGO Framework
 
-**Visibility Growth Optimization — an open framework for trusted visibility across search, generative AI, and emerging discovery interfaces.**
+**Visibility Growth Optimization — an open framework for growing more effective visibility across search, generative AI, and emerging discovery surfaces.**
 
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
-[![Framework](https://img.shields.io/badge/framework-open-brightgreen)](GOVERNANCE.md)
-[![Initiated by Omseek](https://img.shields.io/badge/initiated%20by-Omseek-6C5CE7)](#origin-and-stewardship)
 
-[Official Website](https://www.vgoframework.org) · [Docs](https://www.vgoframework.org/docs) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Integrity & Defense](INTEGRITY-AND-DEFENSE.md) · [Contributing](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
-
----
+[Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Principles](PRINCIPLES.md)
 
 ## What is VGO?
 
-**VGO (Visibility Growth Optimization)** is an open methodology for systematically increasing an entity's **trusted visibility, discoverability, understanding, mentions, and citations** across search engines, generative AI systems, answer engines, agents, and emerging discovery interfaces.
+**VGO (Visibility Growth Optimization)** is an open methodology that starts with real user needs and high-value intent, and systematically grows **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
 
-SEO optimizes visibility in conventional search systems. GEO focuses on visibility in generative and answer systems. **VGO is the higher-level framework that coordinates both while extending the scope to entity authority, content distribution, technical accessibility, measurement, integrity, and future discovery surfaces.**
+> **North Star: Grow More Effective Visibility.**
 
-> **North Star:** Grow trusted visibility — not visibility at any cost.
+VGO distinguishes visibility from value. A ranking is not automatically effective SEO. A mention is not automatically effective GEO. Exposure becomes useful when it reaches the right audience, in the right intent context, on the right surface, with a meaningful presence.
 
-## Why VGO?
+Conceptually:
 
-Discovery is no longer concentrated in a single interface. People and machines increasingly discover brands, organizations, products, people, and knowledge through a mixture of:
+**Effective Visibility = Right Audience × Right Intent × Right Surface × Right Presence**
 
-- conventional search engines;
-- generative AI and answer engines;
-- AI assistants and agents;
-- third-party publications and citations;
-- structured and machine-readable sources;
-- vertical and emerging discovery interfaces.
+This is a conceptual model, not a universal scoring formula.
 
-Optimizing each surface in isolation creates fragmented strategy and measurement. VGO provides a common layer for managing **how an entity is discovered, understood, cited, represented, and trusted over time**.
+## Core value chain
 
-## The VGO model
+**Human & Intent → Effective Assets → Effective SEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
-```text
-                         VGO
-          Visibility Growth Optimization
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-       SEO                GEO          Emerging Discovery
-   Search Visibility   AI Visibility      Agents / Answers
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           │
-          Entity · Authority · Distribution
-          Technical Accessibility · Measurement
-                           │
-               Visibility Integrity
-                & Poisoning Defense
-                           │
-                  Trusted Visibility
-```
+VGO begins with people rather than platforms. It asks which needs and problem spaces matter before deciding which search queries, generative questions, content, sources, or discovery surfaces should be optimized.
 
-### Conceptual model
+## Effective Assets, SEO and GEO
 
-`Trusted Visibility Growth = Reach × Relevance × Authority × Integrity × Persistence`
+- **Effective Assets** are organization-owned or controlled assets built around real user needs and high-value intent that can continuously participate in discovery and decision processes.
+- **Effective SEO** is search visibility that helps the organization be correctly discovered and understood in valuable search contexts and enter the user's decision process.
+- **Effective GEO** is the ability to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces.
 
-This is a conceptual framework, not a universal scientific equation. Implementations should disclose how factors are measured, normalized, sampled, and weighted.
+**Ranking ≠ Effective SEO. Mention ≠ Effective GEO. Visibility ≠ Value.**
 
-## Seven core pillars
+## SEO, GEO and VGO
 
-| Pillar | Objective |
-| --- | --- |
-| **Search Visibility** | Improve discovery, indexing, ranking, snippets, qualified traffic, and search presence. |
-| **Generative Visibility** | Improve accurate understanding, mentions, citations, answer inclusion, and contextual presence in AI systems. |
-| **Entity & Authority** | Establish canonical identity, consistent facts, evidence, topical authority, and credible corroboration. |
-| **Content & Distribution** | Build useful source content and legitimate distribution across owned and third-party channels. |
-| **Technical Accessibility** | Improve crawlability, rendering, structured data, machine readability, stable URLs, and performance. |
-| **Measurement & Growth** | Establish baselines, visibility shares, experiments, attribution, trends, and business outcomes. |
-| **Visibility Integrity & Poisoning Defense** | Detect and respond to misinformation, entity confusion, suspicious sources, manipulation, and provenance failures. |
+SEO and GEO remain important capability domains. VGO is the higher-level growth framework that connects them to real user intent, owned assets, authority, integrity, measurement, and outcomes.
 
-## Operating loop
+**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
 
-```text
-Discover → Diagnose → Prioritize → Optimize → Distribute
-    ↑                                      ↓
-   Learn ← Measure ← Defend ← Verify ←────┘
-```
+VGO does not claim SEO or GEO is obsolete. It provides a broader framework for determining whether visibility is actually useful.
 
-A VGO intervention is not complete when visibility increases. It must also be verified for **accuracy, authority, provenance, integrity, and measurable impact**.
+## Owned assets and external signals
 
-## SEO, GEO, and VGO
+VGO treats first-party assets and credible third-party signals as complementary.
 
-VGO does not rename SEO or GEO and does not assume that one strictly depends on the other.
+Third-party sources support distribution, independent corroboration, citations, authority, and source diversity. Owned assets preserve organization-controlled facts, knowledge, content, evidence, and longitudinal learning.
 
-| | SEO | GEO | VGO |
-| --- | --- | --- | --- |
-| **Primary surface** | Search engines | Generative / answer systems | Cross-surface discovery |
-| **Primary goal** | Search visibility | AI mentions, citations, answer inclusion | Trusted visibility growth |
-| **Scope** | Search-specific | Generative-system-specific | Strategy, authority, distribution, integrity, measurement |
-| **Time horizon** | Continuous | Continuous | Continuous and cross-surface |
+> **Permanently owned assets. Continuously changing visibility.**
 
-See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the full relationship model.
+The goal is not to promise permanent rankings or citations. It is to ensure that optimization leaves reusable assets and learning behind.
+
+## Visibility surfaces
+
+A **Visibility Surface** is any digital interface, system, platform, agent, or device that can influence discovery, understanding, citation, comparison, recommendation, or selection.
+
+VGO v1 focuses primarily on search and generative AI while remaining open to future discovery surfaces.
 
 ## Measurement
 
-VGO separates observable metrics from composite scores. Initial framework metrics include:
+VGO separates raw exposure from effective visibility. Public framework measurement should be evidence-led, reproducible where practical, and transparent about uncertainty.
 
-**Search Visibility Share · Generative Mention Share · Citation Share · Query/Prompt Coverage · Entity Consistency Rate · Factual Accuracy Rate · Citation Diversity · Integrity Risk · Trusted Visibility Growth Rate**
+The open framework defines what meaningful measurement should consider. It intentionally does **not** publish proprietary weighting models, intent-discovery algorithms, prioritization logic, automation recipes, or commercial implementation methods.
 
-See [METRICS.md](METRICS.md) for definitions and measurement principles.
+See [METRICS.md](METRICS.md).
 
-## Visibility integrity
+## Integrity
 
-Visibility without integrity can become a liability.
-
-VGO treats misinformation, stale facts, entity confusion, malicious content, fabricated consensus, compromised sources, and retrieval/generation manipulation as first-class visibility risks.
-
-The defensive lifecycle is:
-
-**Baseline → Observe → Detect → Verify → Classify → Respond → Revalidate → Recover**
-
-VGO explicitly excludes offensive poisoning, fabricated counter-content, fake reviews, impersonation, hacking, or attempts to bypass third-party safeguards.
+Visibility growth must not come at the expense of truth, provenance, or trust. VGO includes defensive principles for misinformation, entity confusion, suspicious sources, manipulation, and provenance failures.
 
 See [INTEGRITY-AND-DEFENSE.md](INTEGRITY-AND-DEFENSE.md).
-
-## Documentation
-
-Official reading copies for **v1.0.0-draft** are published in [Docs](https://www.vgoframework.org/docs).
-
-| Document | Reading copy | Purpose |
-| --- | --- | --- |
-| [VGO-FRAMEWORK.md](VGO-FRAMEWORK.md) | [docs/framework](https://www.vgoframework.org/docs/framework) | Core framework specification |
-| [PRINCIPLES.md](PRINCIPLES.md) | [docs/principles](https://www.vgoframework.org/docs/principles) | Framework principles |
-| [METRICS.md](METRICS.md) | [docs/metrics](https://www.vgoframework.org/docs/metrics) | Metrics and measurement model |
-| [SEO-GEO-VGO.md](SEO-GEO-VGO.md) | [docs/seo-geo-vgo](https://www.vgoframework.org/docs/seo-geo-vgo) | Relationship between SEO, GEO, and VGO |
-| [TERMINOLOGY.md](TERMINOLOGY.md) | [docs/terminology](https://www.vgoframework.org/docs/terminology) | Common terminology |
-| [INTEGRITY-AND-DEFENSE.md](INTEGRITY-AND-DEFENSE.md) | [docs/integrity-and-defense](https://www.vgoframework.org/docs/integrity-and-defense) | Integrity and defensive framework |
-| [RESEARCH-AGENDA.md](RESEARCH-AGENDA.md) | [docs/research-agenda](https://www.vgoframework.org/docs/research-agenda) | Open research questions |
-| [CASE-STUDY-TEMPLATE.md](CASE-STUDY-TEMPLATE.md) | [docs/case-study-template](https://www.vgoframework.org/docs/case-study-template) | Reproducible case-study format |
-| [GOVERNANCE.md](GOVERNANCE.md) | [docs/governance](https://www.vgoframework.org/docs/governance) | Governance model |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | [docs/contributing](https://www.vgoframework.org/docs/contributing) | Contribution process |
-| [ROADMAP.md](ROADMAP.md) | [docs/roadmap](https://www.vgoframework.org/docs/roadmap) | Framework roadmap |
-| [CHANGELOG.md](CHANGELOG.md) | [updates/v1-0-0-draft](https://www.vgoframework.org/updates/v1-0-0-draft) | Version history |
-
-## Quick start
-
-If you are evaluating an organization with VGO:
-
-1. Define the entity and canonical facts.
-2. Define the relevant search, AI, answer, agent, and discovery surfaces.
-3. Establish a reproducible query/prompt baseline.
-4. Measure search visibility, generative visibility, citations, entity consistency, authority, and integrity.
-5. Diagnose the weakest VGO pillars.
-6. Prioritize interventions by expected impact, confidence, effort, and integrity risk.
-7. Re-measure using the same sampling protocol.
-8. Record uncertainty and avoid claiming causation without evidence.
-
-For formal case documentation, use the [VGO Case Study Template](CASE-STUDY-TEMPLATE.md).
 
 ## Origin and stewardship
 
 The **VGO Framework was initiated by Omseek in 2026** and is maintained as an open methodology.
 
-Omseek acts as the founding maintainer. Community proposals, research, corrections, and extensions are welcome through Issues and Pull Requests. Maintainers retain responsibility for release coherence, definitions, governance, and framework integrity.
-
-The open framework is intentionally distinguishable from any specific Omseek product implementation: **VGO is the methodology; Omseek is its initiator, maintainer, and an implementation platform.**
-
-## Cite VGO
-
-GitHub can read the repository's [CITATION.cff](CITATION.cff) metadata. A human-readable citation is:
-
-> VGO Framework. *Visibility Growth Optimization (VGO) Framework*. Version 1.0 Draft, 2026. Initiated by Omseek. https://vgoframework.org
-
-For version-specific references, cite the relevant GitHub release/tag.
+VGO is the methodology. Omseek is its initiator, founding maintainer, and an implementation platform. The open framework is intentionally separate from proprietary product implementation.
 
 ## Contributing
 
-VGO is designed to evolve through evidence, reproducible measurement, and open critique—not manufactured consensus.
+VGO evolves through evidence, reproducible measurement, cases, research, and open critique. Framework-level additions should solve demonstrated problems rather than expand terminology for its own sake.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md) before proposing framework-level changes.
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md).
 
 ## License
 
-The framework documentation and methodology are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [LICENSE](LICENSE).
-
-**Brand rights are separate from the documentation license.** CC BY 4.0 does not by itself grant trademark rights or permission to imply official status, endorsement, certification, sponsorship, or affiliation. See [TRADEMARK.md](TRADEMARK.md).
-
----
+Framework documentation and methodology are released under **CC BY 4.0**. Brand rights are separate. See [LICENSE](LICENSE) and [TRADEMARK.md](TRADEMARK.md).
 
 **Current release:** [VGO Framework v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
