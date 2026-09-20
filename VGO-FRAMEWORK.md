@@ -1,95 +1,115 @@
 # VGO Framework 1.0
 
-**Reading copy:** https://www.vgoframework.org/docs/framework  
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
 ## 1. Purpose
 
-VGO provides a common framework for organizations seeking durable visibility across search, generative AI and emerging discovery systems without sacrificing relevance, accuracy, provenance or trust.
+VGO (Visibility Growth Optimization) is an open methodology for growing **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
 
-VGO begins with people rather than platforms:
+VGO begins with real people and high-value intent rather than platforms or raw exposure.
 
-> **Human-first. Intent-first. Visibility follows.**
+> **Human First. Intent First. Effectiveness First.**
+>
+> **North Star: Grow More Effective Visibility.**
 
-The objective is not maximum exposure. It is effective, trusted and sustainable visibility in the problem spaces that matter to real users.
+VGO is not against growth in visibility. It distinguishes raw visibility from visibility that matters.
 
-## 2. Core value chain
+## 2. Effective Visibility
 
-**Real users → Real intent → High-value problem spaces → Discovery → Correct understanding → Mention / Citation → Trust → Comparison → Recommendation → Selection → Sustainable visibility assets**
+Conceptually:
 
-The framework distinguishes this end-to-end decision path from raw exposure. Being visible is an intermediate state, not the final business outcome.
+**Effective Visibility = Right Audience × Right Intent × Right Surface × Right Presence**
 
-## 3. Scope
+This is a conceptual model, not a universal scoring equation.
 
-A VGO program may cover user/problem-space research, websites, knowledge entities, product/service pages, editorial content, structured data, third-party media, citations, reviews, public documentation, answer-engine responses and agent-accessible resources.
+Visibility Growth in VGO should be understood as the continuous growth of Effective Visibility, rather than the maximization of raw exposure.
 
-VGO defines the strategic and measurement model. It does not require one proprietary method for discovering intent, prioritizing opportunities or calculating value.
+## 3. Core value chain
 
-## 4. Seven pillars
+**Human & Intent → Effective Assets → Effective SEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
-### 4.1 Search Visibility
-Technical SEO, indexability, information architecture, query coverage, ranking, snippets and organic traffic.
+Being visible is an intermediate state. VGO asks whether that visibility participates meaningfully in discovery and decision processes.
 
-### 4.2 Generative Visibility
-Prompt/query coverage, answer inclusion, citation share, mention share, factual accuracy, contextual prominence and answer consistency.
+## 4. Effective Assets
 
-### 4.3 Entity & Authority
-Canonical identity, organization/person/product entities, source consistency, expertise evidence, first-party facts, reputable third-party corroboration and topical authority.
+Effective Assets are organization-owned or controlled assets built around real user needs and high-value intent that can continuously participate in search, generative AI, discovery, and decision processes.
 
-### 4.4 Content & Distribution
-Useful source content, editorial coverage, digital PR, syndication with provenance, audience distribution and source diversity. VGO rejects deceptive mass publishing designed only to manipulate retrieval or generation.
+Examples may include first-party content, product and service facts, evidence, cases, structured knowledge, documentation, and other maintainable resources.
 
-### 4.5 Technical Accessibility
-Crawlability, rendering, canonicalization, metadata, structured data, stable URLs, performance, machine-readable documents and access policies.
+## 5. Effective SEO
 
-### 4.6 Measurement & Growth
-Baseline measurement, raw visibility, qualified/effective visibility, citation/mention share, intent-relevant problem-space coverage, conversion outcomes, change attribution, experiments and longitudinal monitoring.
+Effective SEO is search visibility built around real user needs and high-value search intent so that an entity can be correctly discovered and understood in valuable search contexts and enter the user's decision process.
 
-### 4.7 Visibility Integrity & Poisoning Defense
-Source trust assessment, anomaly detection, factual consistency checks, impersonation/confusion monitoring, malicious-content detection, provenance tracking, correction workflows and recovery measurement.
+**Ranking ≠ Effective SEO.**
 
-## 5. Operating loop
+## 6. Effective GEO
 
-**Discover → Diagnose → Prioritize → Optimize → Distribute → Verify → Defend → Measure → Learn**
+Effective GEO is the ability of an entity to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces relevant to real users.
 
-The loop is continuous. A successful optimization is not complete until the resulting visibility is verified for relevance, accuracy, authority and integrity.
+**Mention ≠ Effective GEO.**
 
-## 6. Strategic layers
+## 7. SEO, GEO and VGO
 
-- **Human & Intent:** real audiences, needs, questions, decision contexts and problem spaces.
-- **Foundation:** technical accessibility + entity correctness + first-party knowledge.
-- **Acquisition:** SEO + GEO + content/distribution.
-- **Authority:** corroboration + citations + source quality.
-- **Integrity:** poisoning defense + provenance + correction.
-- **Growth:** effective visibility + measurement + experiments + business outcomes.
-- **Compounding assets:** owned knowledge, organic discoverability, authority signals, traffic and longitudinal data.
+SEO and GEO are capability domains. VGO is the higher-level growth framework connecting them to human intent, owned assets, authority, integrity, measurement, learning, and outcomes.
 
-## 7. Owned visibility and external signals
+**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
 
-VGO treats third-party distribution and first-party assets as complementary.
+VGO does not claim SEO or GEO is obsolete and does not require either to be renamed.
 
-Third-party sources can create reach, independent corroboration, citations and source diversity. First-party websites and knowledge resources provide durable ownership of entity facts, product/service knowledge, cases and content.
+## 8. Visibility Surfaces
 
-The goal is to move beyond temporary exposure toward visibility that an organization can maintain, observe and compound over time.
+A Visibility Surface is any digital interface, system, platform, agent, or device that can influence discovery, understanding, citation, comparison, recommendation, or selection.
 
-## 8. Observability and outcomes
+VGO v1 focuses primarily on search and generative AI. Future surfaces may evolve without changing the core value chain.
 
-Where organizations control first-party properties, VGO can connect discovery visibility with observable downstream signals such as visits, content behavior, key-page journeys, leads and conversion trends.
+## 9. Owned assets and external signals
 
-These signals improve visibility-to-outcome measurement, but VGO does not assume perfect attribution. Cross-device, multi-touch and opaque AI journeys can prevent deterministic causal claims.
+First-party assets and credible third-party signals are complementary.
 
-## 9. Principles
+Third-party sources support distribution, independent corroboration, citations, authority, and source diversity. Owned assets preserve organization-controlled facts, knowledge, content, evidence, and longitudinal learning.
 
-VGO should be human-first, intent-aware, evidence-led, source-aware, user-beneficial, measurable, transparent about uncertainty and resistant to manipulative visibility tactics.
+> **Permanently owned assets. Continuously changing visibility.**
 
-**Effective visibility is preferred to raw exposure. Trusted visibility is preferred to manufactured presence. Sustainable assets are preferred to one-time reporting.**
+VGO does not assume rankings, AI citations, or traffic compound permanently. What can accumulate are content, knowledge, entity relationships, data, historical evidence, optimization experience, and organizational capability.
 
-## 10. What VGO is not
+## 10. Operating loop
 
-VGO is not keyword stuffing, fake citation generation, mass low-quality publishing, fabricated consensus, cloaking, impersonation, prompt injection against third-party systems, or attempts to corrupt model/retrieval data.
+At the framework level:
 
-VGO is also not a claim that every mention, prompt hit or ranking improvement has equal value.
+**Sense → Decide → Act → Verify → Learn**
 
-## 11. Extensibility
+At the asset and organizational level:
 
-Future VGO versions may add discovery surfaces such as autonomous agents, commerce assistants, vertical answer engines, multimodal search and machine-to-machine discovery without redefining the core objective: **effective, trusted and sustainable visibility growth.**
+**Build → Observe → Learn → Optimize → Accumulate**
+
+Implementations may use different workflows. VGO does not prescribe a proprietary execution engine.
+
+## 11. Measurement
+
+VGO separates raw exposure from effective visibility and business outcomes.
+
+Public measurement should be evidence-led, reproducible where practical, transparent about uncertainty, and explicit about the population, problem spaces, surfaces, and sampling used.
+
+The open framework intentionally does not define proprietary scoring weights, normalization, intent-discovery algorithms, opportunity prioritization, automation strategies, or commercial implementation recipes.
+
+## 12. Integrity
+
+Growth that degrades truth, provenance, or trust fails VGO.
+
+VGO treats misinformation, stale facts, entity confusion, suspicious sources, manipulation, and provenance failures as visibility risks. Defensive work must not become offensive poisoning, fabricated consensus, impersonation, hacking, or attempts to bypass third-party safeguards.
+
+## 13. What VGO is not
+
+VGO is not:
+- maximum exposure at any cost;
+- a renaming of SEO or GEO;
+- a claim that every ranking, mention, citation, prompt hit, or traffic event has equal value;
+- mass low-quality publishing or fabricated authority;
+- a promise of permanent rankings, citations, or traffic;
+- a universal proprietary scoring algorithm.
+
+## 14. Extensibility
+
+VGO remains open to future discovery surfaces while keeping the framework stable.
+
+New terminology or modules should be introduced only when evidence shows that the existing framework cannot adequately explain a meaningful visibility problem.
