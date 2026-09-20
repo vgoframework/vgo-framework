@@ -2,7 +2,7 @@
 
 **VGO — Visibility Growth Optimization（可见度增长优化）**
 
-[English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [原则](PRINCIPLES.md)
+[English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [公开评估规范](EVALUATION-PROTOCOL.md) · [原则](PRINCIPLES.md)
 
 ## 什么是 VGO？
 
@@ -58,6 +58,8 @@ VGO v1 当前重点关注搜索与生成式 AI，同时保持对未来发现入�
 ## 衡量
 
 VGO 区分原始曝光与有效可见。公开框架描述衡量原则、概念和可验证标准，但不公开商业实现中的专有权重、意图发现算法、机会优先级算法、自动化策略或产品实现配方。
+
+单场景公开判定见可供测试的草案 [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md)。该草案不是通用认证，也不定义统一分数。
 
 ## 发起与治理
 

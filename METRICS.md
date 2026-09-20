@@ -32,6 +32,8 @@ Conceptually:
 
 This model communicates the logic of Effective Visibility. It is **not** a universal mathematical equation and should not be presented as a fixed scientific scoring formula.
 
+Single-scenario public judgments follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft does not turn this model into a total score.
+
 ## 4. Measurement quality
 
 Implementations should document, where practical:

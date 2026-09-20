@@ -92,6 +92,8 @@ Public measurement should be evidence-led, reproducible where practical, transpa
 
 The open framework intentionally does not define proprietary scoring weights, normalization, intent-discovery algorithms, opportunity prioritization, automation strategies, or commercial implementation recipes.
 
+Single-scenario public judgments follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). The conceptual model must not be used to compute a total score.
+
 ## 12. Integrity
 
 Growth that degrades truth, provenance, or trust fails VGO.

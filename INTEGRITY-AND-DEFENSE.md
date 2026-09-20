@@ -1,9 +1,5 @@
 # Visibility Integrity & Poisoning Defense
 
-**Reading copy:** https://www.vgoframework.org/docs/integrity-and-defense  
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
-
-
 ## Objective
 Protect the accuracy, provenance and trustworthiness of an entity's representation across search and AI discovery systems.
 
@@ -44,3 +40,5 @@ VGO defense must not become offensive manipulation. It excludes hacking, harassm
 
 ## Integrity scoring
 Implementations may calculate an Integrity Score from factual consistency, provenance quality, source trust, anomaly incidence and recovery state. Exact scoring must be documented; uncertainty should remain visible.
+
+Integrity risks in a single public evaluation scenario are judged under [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). A major unresolved conflict prevents a finding of evidence-backed Effective Visibility.

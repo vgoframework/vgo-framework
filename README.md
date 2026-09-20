@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
 
-[Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Principles](PRINCIPLES.md)
+[Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md)
 
 ## What is VGO?
 
@@ -65,7 +65,7 @@ VGO separates raw exposure from effective visibility. Public framework measureme
 
 The open framework defines what meaningful measurement should consider. It intentionally does **not** publish proprietary weighting models, intent-discovery algorithms, prioritization logic, automation recipes, or commercial implementation methods.
 
-See [METRICS.md](METRICS.md).
+See [METRICS.md](METRICS.md). Single-scenario public judgments follow the testable draft [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft is not a general certification and does not define a universal score.
 
 ## Integrity
 

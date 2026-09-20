@@ -1,9 +1,5 @@
 # VGO Case Study Template
 
-**Reading copy:** https://www.vgoframework.org/docs/case-study-template  
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
-
-
 ## Context
 Entity, market, period, discovery surfaces and business objective.
 
@@ -21,6 +17,9 @@ Report absolute and relative changes. Avoid claiming causation unless the design
 
 ## Integrity review
 Were any inaccurate claims, suspicious sources or unintended effects introduced?
+
+## Public evaluation protocol
+If the case is published as a VGO public evaluation, pre-register the intent scenario and keep raw evidence as specified in [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). Report the denominator. Do not publish only the best screenshot.
 
 ## Lessons
 What appears transferable, what remains uncertain, and what should be tested next.
