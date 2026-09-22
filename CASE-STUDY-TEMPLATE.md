@@ -7,7 +7,7 @@ Entity, market, period, discovery surfaces and business objective.
 Query/prompt set, engines/models, collection dates, search visibility, generative mentions/citations, authority and integrity indicators.
 
 ## Intervention
-What changed, where, when and why. Separate SEO, GEO, entity, distribution, technical and integrity actions.
+What changed, where, when and why. Separate SEO, AEO, GEO, entity, distribution, technical and integrity actions.
 
 ## Measurement
 Use the same sampling protocol where possible. Record model/engine versions and uncertainty.
