@@ -2,6 +2,8 @@
 
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
+**Status:** Current working draft with AEO clarification. The linked v1.0.0-draft release remains a historical snapshot; EVALUATION-PROTOCOL.md continues to state its frozen v1.0 basis.
+
 ## 1. Purpose
 
 VGO (Visibility Growth Optimization) is an open methodology for growing **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
@@ -26,7 +28,7 @@ Visibility Growth in VGO should be understood as the continuous growth of Effect
 
 ## 3. Core value chain
 
-**Human & Intent → Effective Assets → Effective SEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
+**Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
 Being visible is an intermediate state. VGO asks whether that visibility participates meaningfully in discovery and decision processes.
 
@@ -42,27 +44,29 @@ Effective SEO is search visibility built around real user needs and high-value s
 
 **Ranking ≠ Effective SEO.**
 
-## 6. Effective GEO
+## 6. Effective AEO
+
+Effective AEO is the ability of accurate, useful, verifiable information to be selected and presented in direct answers to relevant user questions across answer-capable search and AI interfaces. Record whether the answer is factually correct, whether the entity and its sources are identified appropriately, and what evidence supports the observation. Answer inclusion alone does not establish effectiveness or user choice.
+
+## 7. Effective GEO
 
 Effective GEO is the ability of an entity to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces relevant to real users.
 
 **Mention ≠ Effective GEO.**
 
-## 7. SEO, GEO and VGO
+## 8. SEO, AEO, GEO and VGO
 
-SEO and GEO are capability domains. VGO is the higher-level growth framework connecting them to human intent, owned assets, authority, integrity, measurement, learning, and outcomes.
+SEO, AEO and GEO are related capability lenses within the higher-level VGO growth framework. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
 
-**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
+VGO connects them to human intent, owned assets, authority, integrity, measurement, learning and outcomes. Ranking, answer inclusion, mentions and citations do not by themselves prove user choice. See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the comparison.
 
-VGO does not claim SEO or GEO is obsolete and does not require either to be renamed.
-
-## 8. Visibility Surfaces
+## 9. Visibility Surfaces
 
 A Visibility Surface is any digital interface, system, platform, agent, or device that can influence discovery, understanding, citation, comparison, recommendation, or selection.
 
 VGO v1 focuses primarily on search and generative AI. Future surfaces may evolve without changing the core value chain.
 
-## 9. Owned assets and external signals
+## 10. Owned assets and external signals
 
 First-party assets and credible third-party signals are complementary.
 
@@ -72,7 +76,7 @@ Third-party sources support distribution, independent corroboration, citations, 
 
 VGO does not assume rankings, AI citations, or traffic compound permanently. What can accumulate are content, knowledge, entity relationships, data, historical evidence, optimization experience, and organizational capability.
 
-## 10. Operating loop
+## 11. Operating loop
 
 At the framework level:
 
@@ -84,7 +88,7 @@ At the asset and organizational level:
 
 Implementations may use different workflows. VGO does not prescribe a proprietary execution engine.
 
-## 11. Measurement
+## 12. Measurement
 
 VGO separates raw exposure from effective visibility and business outcomes.
 
@@ -94,13 +98,13 @@ The open framework intentionally does not define proprietary scoring weights, no
 
 Single-scenario public judgments follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). The conceptual model must not be used to compute a total score.
 
-## 12. Integrity
+## 13. Integrity
 
 Growth that degrades truth, provenance, or trust fails VGO.
 
 VGO treats misinformation, stale facts, entity confusion, suspicious sources, manipulation, and provenance failures as visibility risks. Defensive work must not become offensive poisoning, fabricated consensus, impersonation, hacking, or attempts to bypass third-party safeguards.
 
-## 13. What VGO is not
+## 14. What VGO is not
 
 VGO is not:
 - maximum exposure at any cost;
@@ -110,7 +114,7 @@ VGO is not:
 - a promise of permanent rankings, citations, or traffic;
 - a universal proprietary scoring algorithm.
 
-## 14. Extensibility
+## 15. Extensibility
 
 VGO remains open to future discovery surfaces while keeping the framework stable.
 

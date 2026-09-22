@@ -1,50 +1,27 @@
-# SEO, GEO and VGO
+# SEO, AEO, GEO and VGO
 
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Status:** Working draft amendment to the v1.0.0-draft baseline. The tagged release remains a historical snapshot.
 
-| Dimension | SEO | GEO | VGO |
-|---|---|---|---|
-| Primary surface | Search engines | Generative / answer systems | Relevant discovery surfaces |
-| Typical objective | Discovery and ranking | Understanding, mentions, citations, answer inclusion | More Effective Visibility |
-| Starting point | Search demand / queries | Generative questions / answer contexts | Real users, needs and high-value intent |
-| Core role | Search capability | Generative capability | Higher-level growth framework |
-| Key question | Can the right user find you? | Can the system correctly understand and use you? | Does visibility meaningfully enter trust, comparison, recommendation and selection? |
+| Dimension | SEO | AEO | GEO | VGO |
+|---|---|---|---|---|
+| Primary question | Can the right user discover the entity in search? | Does a direct answer accurately address the user's question and represent the entity? | Does a generative system correctly understand, cite, compare or recommend the entity? | Does observed visibility contribute to relevant, trusted discovery and decision making? |
+| Relevant surfaces | Search results and related discovery interfaces | Direct answers in search and AI interfaces | Generative systems and their outputs | Relevant discovery surfaces |
+| Observable signals | Relevant discovery, rank, result presentation | Answer eligibility, presence, accuracy, source traceability | Understanding, mentions, citations, comparisons, recommendations | Audience and intent fit, correct presence, integrity, outcomes where observed |
+| Limits | Rank alone does not show usefulness | Answer inclusion alone does not show accuracy or user choice | A mention alone does not show trust or value | No universal score or guaranteed causal attribution |
 
 ## Relationship
 
-SEO and GEO are major capability domains. VGO is the higher-level growth framework that connects them to real user demand, high-value intent, owned assets, authority, integrity, measurement, learning, and outcomes.
+SEO, AEO and GEO are related capability lenses, not disjoint traffic channels or a fixed funnel. A generative answer can be observed through both AEO (the answer and its accuracy) and GEO (generative understanding, attribution, comparison and recommendation). Search can also provide direct answers, so AEO is not restricted to generative AI. Shared observations should be labeled by surface and question rather than counted twice as separate business outcomes.
 
-**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
+A technically sound, authoritative first-party property can supply maintained facts, knowledge and evidence. Credible third-party sources can corroborate and distribute them. None of these guarantees answer inclusion, citation, rankings or user selection. SEO may strengthen shared foundations without being a universal prerequisite for GEO or AEO.
 
-This does not mean ranking, answers, or selection are mutually exclusive stages or guaranteed outcomes. It is a concise way to distinguish their primary optimization perspective.
+## Effective capability and evidence
 
-## Effective SEO
+- **Effective SEO:** relevant search discovery and correct understanding in valuable contexts; ranking alone is insufficient.
+- **Effective AEO:** accurate, useful and verifiable representation in direct answers to relevant questions; appearance alone is insufficient.
+- **Effective GEO:** correct generative understanding, credible citation and appropriate comparison or recommendation; mention alone is insufficient.
+- **Effective Visibility:** right audience, intent, surface and presence, with uncertainty and integrity risks disclosed. User choice or commercial impact requires additional evidence.
 
-Effective SEO is search visibility built around real user needs and high-value search intent so that an entity can be correctly discovered and understood in valuable search contexts and enter the user's decision process.
+Measure an observed surface and scenario with raw results, query or prompt, time, region, answer text, sources and fact checks. Distinguish eligibility from actual answer presence, a name mention from a traceable citation, and answer accuracy from downstream outcomes. See [METRICS.md](METRICS.md) and the unchanged [public evaluation protocol draft](EVALUATION-PROTOCOL.md).
 
-**Ranking ≠ Effective SEO.**
-
-## Effective GEO
-
-Effective GEO is the ability to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces relevant to real users.
-
-**Mention ≠ Effective GEO.**
-
-## Why raw exposure is incomplete
-
-Prompt coverage, mention counts, ranking counts, citation counts, and answer share are useful observations, but they cannot establish value on their own.
-
-VGO therefore asks:
-- Is the audience relevant?
-- Is the intent meaningful?
-- Is the discovery surface relevant?
-- Is the presence accurate and useful?
-- Does visibility contribute to understanding, trust, comparison, recommendation, or selection?
-
-## First-party assets and third-party sources
-
-A technically sound, authoritative first-party property can provide stable facts, knowledge, evidence, and content. Generative and search systems may also rely on credible third-party sources and other data pipelines.
-
-VGO treats both as complementary. It does not claim that SEO is a universal prerequisite for GEO or that third-party visibility should be replaced by owned assets.
-
-The goal is to strengthen visibility while ensuring that optimization also leaves maintainable assets and organizational learning behind.
+VGO connects these capabilities to real users, high-value intent, owned assets, authority, integrity, measurement, learning and outcomes. It does not require renaming any existing discipline or promise that improving an intermediate signal will cause selection.

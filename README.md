@@ -7,6 +7,8 @@
 
 [Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md)
 
+**Current working definition:** Includes the AEO clarification below. The linked v1.0.0-draft release is a historical snapshot; the public evaluation protocol still states its frozen v1.0 basis.
+
 ## What is VGO?
 
 **VGO (Visibility Growth Optimization)** is an open methodology that starts with real user needs and high-value intent, and systematically grows **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
@@ -23,25 +25,24 @@ This is a conceptual model, not a universal scoring formula.
 
 ## Core value chain
 
-**Human & Intent → Effective Assets → Effective SEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
+**Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
 VGO begins with people rather than platforms. It asks which needs and problem spaces matter before deciding which search queries, generative questions, content, sources, or discovery surfaces should be optimized.
 
-## Effective Assets, SEO and GEO
+## Effective Assets, SEO, AEO and GEO
 
 - **Effective Assets** are organization-owned or controlled assets built around real user needs and high-value intent that can continuously participate in discovery and decision processes.
 - **Effective SEO** is search visibility that helps the organization be correctly discovered and understood in valuable search contexts and enter the user's decision process.
+- **Effective AEO** is the ability of accurate, useful, verifiable information to be selected and presented in direct answers to relevant user questions across answer-capable search and AI interfaces. An answer appearance alone does not establish accuracy or effectiveness.
 - **Effective GEO** is the ability to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces.
 
 **Ranking ≠ Effective SEO. Mention ≠ Effective GEO. Visibility ≠ Value.**
 
-## SEO, GEO and VGO
+## SEO, AEO, GEO and VGO
 
-SEO and GEO remain important capability domains. VGO is the higher-level growth framework that connects them to real user intent, owned assets, authority, integrity, measurement, and outcomes.
+SEO, AEO and GEO are related capability lenses within VGO. SEO addresses discoverability in search; AEO addresses inclusion and accuracy in direct answers; GEO addresses how generative systems understand, cite, compare and recommend an entity. AEO and GEO overlap when a generative system produces an answer. These are analytical lenses, not mutually exclusive channels or a required sequence.
 
-**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
-
-VGO does not claim SEO or GEO is obsolete. It provides a broader framework for determining whether visibility is actually useful.
+VGO connects their observations to real user intent, owned assets, authority, integrity, measurement and outcomes. Ranking, answer inclusion, mentions and citations are intermediate signals; none proves user choice or business value on its own. See [the capability comparison](SEO-GEO-VGO.md).
 
 ## Owned assets and external signals
 

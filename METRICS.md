@@ -14,15 +14,18 @@ Measurement should begin with a defined population of users, needs, intents, pro
 
 A VGO measurement program may observe:
 
-- discovery and coverage across relevant search and generative contexts;
+- discovery and coverage across relevant search, direct-answer and generative contexts;
+- direct-answer eligibility, observed presence, factual accuracy and traceable source support, with eligibility and presence recorded separately;
 - relevance to real user needs and high-value intent;
 - accuracy and consistency of entity facts;
 - source quality, authority, corroboration, and citation diversity;
-- presence in understanding, comparison, recommendation, and selection contexts;
+- presence in understanding, comparison, recommendation, and selection contexts; when an AI answer is assessed under both AEO and GEO, identify the shared observation and avoid double counting;
 - first-party asset coverage and maintainability;
 - downstream observable outcomes where appropriate;
 - integrity risks, conflicting claims, and provenance issues;
 - change over time using comparable sampling.
+
+AEO observations should record the exact question, surface, time, answer text and source links where available; distinguish no answer, an answer without the entity, an accurate entity answer, and an inaccurate or unsupported entity answer. Do not infer eligibility from one absent answer, or user choice from answer presence. Where eligibility is unobservable, report it as unknown rather than estimating a precise rate. See [the capability comparison](SEO-GEO-VGO.md).
 
 ## 3. Effective Visibility
 

@@ -7,6 +7,8 @@
 **VGO** — Visibility Growth Optimization; 可见度增长优化.  
 **Trusted Visibility** — 可验证、相关、准确且来源可信的可见度.  
 **Discovery Surface** — 用户或机器发现实体/信息的入口，包括搜索、AI答案、Agent等.  
+**AEO (Answer Engine Optimization)** — 面向搜索及 AI 等直接回答界面，改善相关问题的答案呈现、准确性与可验证性的能力；与生成式答案场景中的 GEO 存在交叉。  
+**Effective AEO** — 相关问题的直接答案中，准确、有用且可验证的信息被正确选取和呈现；出现一次不代表有效。  
 **Generative Visibility** — 在生成式系统回答中被正确理解、提及或引用的程度.  
 **Visibility Share** — 在定义好的查询/Prompt样本与时间窗口内，一个实体获得的可见度份额.  
 **Citation Share** — 在定义样本中获得引用的相对份额.  
