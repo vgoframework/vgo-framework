@@ -7,11 +7,12 @@
 3. **Effectiveness First.** Grow more Effective Visibility rather than maximizing raw exposure.
 4. **Visibility is not value.** Ranking, mentions, citations, and traffic are intermediate signals, not automatic proof of value.
 5. **Effective SEO over ranking alone.** Search visibility should help the right audience discover and understand an entity in valuable contexts.
-6. **Effective GEO over mentions alone.** Generative visibility should support correct understanding, credible citation, meaningful comparison, and recommendation in relevant problem spaces.
-7. **Owned assets and external signals reinforce each other.** First-party assets preserve knowledge and learning; credible third-party sources provide distribution, corroboration, authority, and diversity.
-8. **Evidence before assertion.** Important claims should be supportable by first-party evidence or credible independent sources.
-9. **Optimize for humans and machines.** Machine readability must not degrade usefulness to people.
-10. **Measure longitudinally without assuming causation.** Observe change over time, but do not turn correlation into unsupported causal claims.
-11. **Integrity constrains growth.** Visibility gained by degrading truth, provenance, or trust fails VGO.
-12. **Assets can accumulate; visibility changes.** Organizations can retain content, knowledge, data, evidence, and learning even while rankings and AI outputs continue to change.
-13. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the framework unnecessarily.
+6. **Effective AEO over answer appearances alone.** Direct answers should be relevant, accurate and supported by checkable sources; presence alone is not user choice.
+7. **Effective GEO over mentions alone.** Generative visibility should support correct understanding, credible citation, meaningful comparison, and recommendation in relevant problem spaces.
+8. **Owned assets and external signals reinforce each other.** First-party assets preserve knowledge and learning; credible third-party sources provide distribution, corroboration, authority, and diversity.
+9. **Evidence before assertion.** Important claims should be supportable by first-party evidence or credible independent sources.
+10. **Optimize for humans and machines.** Machine readability must not degrade usefulness to people.
+11. **Measure longitudinally without assuming causation.** Observe change over time, but do not turn correlation into unsupported causal claims.
+12. **Integrity constrains growth.** Visibility gained by degrading truth, provenance, or trust fails VGO.
+13. **Assets can accumulate; visibility changes.** Organizations can retain content, knowledge, data, evidence, and learning even while rankings and AI outputs continue to change.
+14. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the framework unnecessarily.
