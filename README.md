@@ -1,6 +1,6 @@
 # VGO Framework
 
-**Visibility Growth Optimization — an open framework for growing more effective visibility across search, generative AI, and emerging discovery surfaces.**
+**Visibility Growth Optimization — an open framework for growing more effective visibility across search engines, answer engines, generative AI, intelligent agents, and emerging discovery surfaces.**
 
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
@@ -9,11 +9,11 @@
 
 ## What is VGO?
 
-**VGO (Visibility Growth Optimization)** is an open methodology that starts with real user needs and high-value intent, and systematically grows **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
+**VGO (Visibility Growth Optimization)** is an open methodology that starts with real user needs and high-value intent, and systematically grows **effective, trusted, and sustainable visibility** across search engines, answer engines, generative AI systems, intelligent agents, and emerging discovery surfaces.
 
 > **North Star: Grow More Effective Visibility.**
 
-VGO distinguishes visibility from value. A ranking is not automatically effective SEO. A mention is not automatically effective GEO. Exposure becomes useful when it reaches the right audience, in the right intent context, on the right surface, with a meaningful presence.
+VGO distinguishes visibility from value. A ranking is not automatically effective SEO. Being extracted is not automatically effective AEO. A mention is not automatically effective GEO. Exposure becomes useful when it reaches the right audience, in the right intent context, on the right surface, with a meaningful presence.
 
 Conceptually:
 
@@ -23,25 +23,26 @@ This is a conceptual model, not a universal scoring formula.
 
 ## Core value chain
 
-**Human & Intent → Effective Assets → Effective SEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
+**Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
-VGO begins with people rather than platforms. It asks which needs and problem spaces matter before deciding which search queries, generative questions, content, sources, or discovery surfaces should be optimized.
+VGO begins with people rather than platforms. It asks which needs and problem spaces matter before deciding which search queries, answer opportunities, generative questions, content, sources, or discovery surfaces should be optimized.
 
-## Effective Assets, SEO and GEO
+## Effective Assets, SEO, AEO and GEO
 
 - **Effective Assets** are organization-owned or controlled assets built around real user needs and high-value intent that can continuously participate in discovery and decision processes.
 - **Effective SEO** is search visibility that helps the organization be correctly discovered and understood in valuable search contexts and enter the user's decision process.
+- **Effective AEO** is the ability to provide accurate, extractable, source-ready answers that are eligible to be selected and presented by answer surfaces in valuable question contexts.
 - **Effective GEO** is the ability to be correctly understood, credibly cited, reasonably compared, and recommended by generative systems in high-value problem spaces.
 
-**Ranking ≠ Effective SEO. Mention ≠ Effective GEO. Visibility ≠ Value.**
+**Ranking ≠ Effective SEO. Extraction ≠ Effective AEO. Mention ≠ Effective GEO. Visibility ≠ Value.**
 
-## SEO, GEO and VGO
+## SEO, AEO, GEO and VGO
 
-SEO and GEO remain important capability domains. VGO is the higher-level growth framework that connects them to real user intent, owned assets, authority, integrity, measurement, and outcomes.
+SEO, AEO, and GEO are distinct but overlapping capability domains. VGO is the higher-level growth framework that connects them to real user intent, owned assets, authority, integrity, measurement, and outcomes.
 
-**SEO competes for ranking. GEO competes for answers. VGO focuses on selection.**
+**SEO improves discovery. AEO improves answer eligibility and selection. GEO improves generative understanding, citation, comparison, and recommendation. VGO connects all of them to effective visibility and outcomes.**
 
-VGO does not claim SEO or GEO is obsolete. It provides a broader framework for determining whether visibility is actually useful.
+VGO does not claim SEO, AEO, or GEO is obsolete, interchangeable, or a guaranteed linear funnel. Strong technical search foundations and answer-ready assets often support generative visibility, but VGO does not treat SEO or AEO as universal prerequisites for every GEO outcome.
 
 ## Owned assets and external signals
 
@@ -57,7 +58,7 @@ The goal is not to promise permanent rankings or citations. It is to ensure that
 
 A **Visibility Surface** is any digital interface, system, platform, agent, or device that can influence discovery, understanding, citation, comparison, recommendation, or selection.
 
-VGO v1 focuses primarily on search and generative AI while remaining open to future discovery surfaces.
+VGO v1 focuses primarily on search, answer, and generative AI surfaces while remaining open to intelligent agents and future discovery surfaces.
 
 ## Measurement
 
