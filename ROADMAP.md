@@ -2,7 +2,7 @@
 
 ## 1.0 — Foundation
 - Core definition and seven pillars
-- SEO/GEO relationship
+- SEO/AEO/GEO relationship
 - Metric vocabulary
 - Visibility integrity & poisoning defense
 - Governance and contribution model
