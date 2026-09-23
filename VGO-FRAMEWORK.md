@@ -6,7 +6,9 @@
 
 ## 1. Purpose
 
-VGO (Visibility Growth Optimization) is an open methodology for growing **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
+VGO (Visibility Growth Optimization) is an open methodology for systematically growing effective visibility in the machine world: helping entities be discovered, accurately understood, trusted, and recommended across search, generative AI, and emerging discovery surfaces, while continuously measuring and governing that process.
+
+Recommendation is a desired downstream outcome; the framework does not guarantee recommendation, selection, or a business result from any individual observation.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
 

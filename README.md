@@ -1,6 +1,6 @@
 # VGO Framework
 
-**Visibility Growth Optimization — an open framework for growing more effective visibility across search, generative AI, and emerging discovery surfaces.**
+**Visibility Growth Optimization — an open methodology for systematically growing and governing effective visibility in the machine world.**
 
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
@@ -11,7 +11,9 @@
 
 ## What is VGO?
 
-**VGO (Visibility Growth Optimization)** is an open methodology that starts with real user needs and high-value intent, and systematically grows **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
+**VGO (Visibility Growth Optimization)** is an open methodology for systematically growing effective visibility in the machine world: helping entities be discovered, accurately understood, trusted, and recommended across search, generative AI, and emerging discovery surfaces, while continuously measuring and governing that process.
+
+It starts with real user needs and high-value intent. Recommendations and user choice are desired downstream outcomes, not guaranteed results of a visibility observation.
 
 > **North Star: Grow More Effective Visibility.**
 
