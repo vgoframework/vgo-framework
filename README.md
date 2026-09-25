@@ -1,15 +1,17 @@
 # VGO Framework
 
-**Visibility Growth Optimization — an open methodology and evaluation framework for effective visibility across search, direct answers, generative AI, and emerging discovery surfaces.**
+**GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
-**The relationship in one sentence:** GEO optimizes visibility in generative systems; VGO evaluates and grows effective visibility across GEO, SEO, AEO, and other relevant discovery surfaces, connecting observable presence to user intent, trustworthy evidence, decisions, and lasting assets. VGO Framework is documentation and methodology, not an installable GEO software toolkit. Omseek initiated the framework and develops a separate implementation platform.
+VGO (Visibility Growth Optimization) is an open **action framework** for growing effective visibility across search, direct answers, generative AI, agents, and emerging discovery surfaces. It encompasses GEO's focus on generative AI and connects SEO and AEO. Starting with real user intent and verifiable organizational facts, VGO guides diagnosis, prioritization, action, verification, and continuous learning. It supports automation where appropriate and builds durable assets organizations can own and maintain.
+
+**In practice:** Diagnose → Decide → Act → Verify → Learn. The public framework defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
 
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
 
 [Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md)
 
-**Current working definition:** Includes the AEO clarification below. The linked v1.0.0-draft release is a historical snapshot; the public evaluation protocol still states its frozen v1.0 basis.
+**Current working definition:** Includes the AEO and action-framework clarifications below. The linked v1.0.0-draft release is a historical snapshot; the public evaluation protocol still states its frozen v1.0 basis.
 
 ## What is VGO?
 
@@ -24,6 +26,20 @@ Conceptually:
 **Effective Visibility = Right Audience × Right Intent × Right Surface × Right Presence**
 
 This is a conceptual model, not a universal scoring formula.
+
+## From measurement to action
+
+VGO is not only a set of concepts or metrics. It helps an organization identify machine-perception gaps against verified facts, prioritize valuable user-intent scenarios, plan and carry out work on owned assets and credible external sources, verify observed changes, and feed evidence into the next cycle. See [the action framework](VGO-FRAMEWORK.md#11-operating-loop) and [the capability comparison](SEO-GEO-VGO.md).
+
+| Stage | Required output |
+|---|---|
+| Diagnose | Intent scenarios, observed representation, verified facts, evidence and gaps |
+| Decide | Prioritized opportunities with rationale, constraints and risks |
+| Act | Changes to assets, facts, evidence, content or sources, with owners and review points |
+| Verify | Comparable observations, factual checks, limits and contrary evidence |
+| Learn | Recorded outcomes and revised priorities for the next cycle |
+
+Automation can assist at each stage when evidence, human accountability and appropriate review are preserved. The framework does not claim that any particular software implementation already automates every stage.
 
 ## Core value chain
 
@@ -42,7 +58,7 @@ VGO begins with people rather than platforms. It asks which needs and problem sp
 
 ## SEO, AEO, GEO and VGO
 
-**GEO is one capability domain within VGO's broader scope.** This is a difference in scope and evaluation, not a claim that GEO is unnecessary or that VGO guarantees better rankings, citations, recommendations, or revenue. VGO retains GEO's generative-system questions and adds cross-surface coordination, intent relevance, evidence quality, integrity, outcomes where observable, and owned assets that persist beyond individual mentions.
+**VGO encompasses the generative visibility capabilities addressed by GEO and expands the action scope across surfaces, effectiveness, ownership and long-term learning.** This is a difference in scope and evaluation, not a claim that GEO is unnecessary or that VGO guarantees better rankings, citations, recommendations, or revenue. VGO retains GEO's generative-system questions and adds cross-surface coordination, intent relevance, evidence quality, integrity, outcomes where observable, and owned assets that persist beyond individual mentions.
 
 SEO, AEO and GEO are related capability lenses within VGO. SEO addresses discoverability in search; AEO addresses inclusion and accuracy in direct answers; GEO addresses how generative systems understand, cite, compare and recommend an entity. AEO and GEO overlap when a generative system produces an answer. These are analytical lenses, not mutually exclusive channels or a required sequence.
 
