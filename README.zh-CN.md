@@ -8,7 +8,7 @@ VGO（Visibility Growth Optimization，可见度增长优化）是面向整个�
 
 [English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [公开评估规范](EVALUATION-PROTOCOL.md) · [原则](PRINCIPLES.md) · [官网文案实施说明](docs/WEBSITE-MESSAGING-IMPLEMENTATION.md)
 
-**当前工作定义：**已纳入下述 AEO 与行动框架修订。所链接的 v1.0.0-draft Release 是历史快照；公开评估规范仍以冻结的 v1.0 定义为依据。
+**V1.0 正式方法论：**已纳入 AEO 与行动框架，并进入早期商业实践；这不等于效果已获独立验证或获得第三方采纳。[v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) 保留为历史快照；公开评估协议仍为独立的 Draft 0.1，沿用其冻结基线。
 
 ## 什么是 VGO？
 
@@ -100,9 +100,9 @@ VGO 是方法论；Omseek 是其发起者、founding maintainer 与产品化实�
 
 ## 当前版本
 
-**VGO Framework v1.0 Draft**
+**VGO Framework V1.0 正式版｜已进入早期商业实践｜持续演进**
 
-版本记录：[v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+[V1.0 发布说明](docs/RELEASE-NOTES-V1.0.md) · 历史版本：[v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
 ## 授权
 
