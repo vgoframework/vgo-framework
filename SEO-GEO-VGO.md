@@ -1,6 +1,6 @@
 # SEO, AEO, GEO and VGO
 
-**Status:** Current working draft amendment to the v1.0.0-draft baseline. The tagged release remains a historical snapshot.
+**Status:** Part of VGO Framework V1.0 published methodology. The [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) tag remains a historical snapshot; the public evaluation protocol is separately marked Draft 0.1.
 
 > **GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
