@@ -1,6 +1,6 @@
 # VGO Metrics 1.0
 
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md)); public evaluation protocol Draft 0.1 remains separately scoped.
 
 ## 1. Measurement serves action and verification
 
