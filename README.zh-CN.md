@@ -6,7 +6,7 @@ VGO（Visibility Growth Optimization，可见度增长优化）是面向整个�
 
 **行动闭环：诊断 → 决策 → 执行 → 验证 → 学习。**公开框架定义行动方法、证据要求和自动化边界；Omseek 开发独立的产品实现。本仓库是方法论和执行指引，不是可安装的 AI 助手或工作流引擎。
 
-[English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [公开评估规范](EVALUATION-PROTOCOL.md) · [原则](PRINCIPLES.md)
+[English](README.md) · [核心框架](VGO-FRAMEWORK.md) · [指标体系](METRICS.md) · [公开评估规范](EVALUATION-PROTOCOL.md) · [原则](PRINCIPLES.md) · [官网文案实施说明](docs/WEBSITE-MESSAGING-IMPLEMENTATION.md)
 
 **当前工作定义：**已纳入下述 AEO 与行动框架修订。所链接的 v1.0.0-draft Release 是历史快照；公开评估规范仍以冻结的 v1.0 定义为依据。
 
