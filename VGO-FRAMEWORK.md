@@ -6,6 +6,10 @@
 
 ## 1. Purpose
 
+**One-line definition: Visibility growth optimization and governance for the machine-mediated world.**
+
+**Core goal: Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.** These are intended outcomes, not guaranteed platform behavior. Social discovery is within the conceptual scope; V1 evidence and the public evaluation draft focus primarily on search and generative AI.
+
 VGO (Visibility Growth Optimization) is an open **action framework** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The framework guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
