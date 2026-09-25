@@ -1,7 +1,7 @@
 # VGO Framework Public Evaluation Protocol (Draft 0.1)
 
 **Status:** A public draft available for testing. It has not been independently validated and is not a completed specification.  
-**Basis:** VGO Framework public definition, frozen baseline V1.0 (2026-09-20).  
+**Basis:** VGO Framework public definition, frozen baseline V1.0 (2026-09-20). This protocol remains a single-scenario evidence judgment under that baseline; later working-definition additions about cross-surface action, automation and longitudinal growth do not expand its validated scope. A separately versioned protocol is needed to evaluate cross-surface, over-time growth outcomes.  
 **Purpose:** Let evaluators who do not use Omseek make an explainable, reviewable judgment of visibility in a single user-intent scenario, using the same evidence. This document does not define an industry-wide scoring formula and does not claim third-party adoption.
 
 ## 1. Scope and boundary
