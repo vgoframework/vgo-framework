@@ -1,6 +1,6 @@
 # VGO Principles
 
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
 
 1. **Human First.** Begin with real people and real needs, not platforms.
 2. **Intent First.** Identify meaningful intent and problem spaces before selecting optimization targets.
