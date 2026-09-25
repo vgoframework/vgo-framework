@@ -9,7 +9,7 @@ VGO (Visibility Growth Optimization) is an open **action framework** for growing
 [![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
 
-[Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md)
+[Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md) · [Website messaging brief](docs/WEBSITE-MESSAGING-IMPLEMENTATION.md)
 
 **Current working definition:** Includes the AEO and action-framework clarifications below. The linked v1.0.0-draft release is a historical snapshot; the public evaluation protocol still states its frozen v1.0 basis.
 
