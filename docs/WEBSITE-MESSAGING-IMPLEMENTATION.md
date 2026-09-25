@@ -20,9 +20,9 @@ Use the same claims in English and Chinese. Link current pages to the current fr
 
 **中文主张：**GEO 关注品牌在生成式 AI 答案中的表现；VGO 优化品牌在整个机器世界的有效可见度增长结果。
 
-**English definition:** VGO is an open action framework for effective visibility growth across search, direct answers, generative AI, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
+**Expanded English description:** VGO is an open action framework for effective visibility growth across search, direct answers, generative AI, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
 
-**中文定义：**VGO 是面向整个机器世界的有效可见度增长开放行动框架，从真实用户意图和可验证的品牌事实出发，指导诊断、决策、执行、验证和学习，在适合的环节推进自动化，并沉淀品牌可长期持有的增长资产。
+**中文展开说明：**VGO 是面向整个机器世界的有效可见度增长开放行动框架，从真实用户意图和可验证的品牌事实出发，指导诊断、决策、执行、验证和学习，在适合的环节推进自动化，并沉淀品牌可长期持有的增长资产。
 
 ## Home page: small, high-impact additions
 
