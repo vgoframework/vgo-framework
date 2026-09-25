@@ -6,12 +6,12 @@ VGO (Visibility Growth Optimization) is an open **action framework** for growing
 
 **In practice:** Diagnose → Decide → Act → Verify → Learn. The public framework defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
 
-[![Status](https://img.shields.io/badge/status-v1.0%20draft-orange)](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+![Status: V1.0 published methodology](https://img.shields.io/badge/status-V1.0%20published%20methodology-blue)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
 
 [Official Website](https://www.vgoframework.org) · [中文说明](README.zh-CN.md) · [Framework](VGO-FRAMEWORK.md) · [Metrics](METRICS.md) · [Evaluation Protocol](EVALUATION-PROTOCOL.md) · [Principles](PRINCIPLES.md) · [Website messaging brief](docs/WEBSITE-MESSAGING-IMPLEMENTATION.md)
 
-**Current working definition:** Includes the AEO and action-framework clarifications below. The linked v1.0.0-draft release is a historical snapshot; the public evaluation protocol still states its frozen v1.0 basis.
+**V1.0 published methodology:** This version includes AEO and the action framework. It has entered early commercial practice; this is not a claim of independently validated effectiveness or third-party adoption. The [v1.0.0-draft release](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains a historical snapshot, and the public evaluation protocol retains its separate Draft 0.1 status and frozen baseline.
 
 ## What is VGO?
 
@@ -120,4 +120,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md).
 
 Framework documentation and methodology are released under **CC BY 4.0**. Brand rights are separate. See [LICENSE](LICENSE) and [TRADEMARK.md](TRADEMARK.md).
 
-**Current release:** [VGO Framework v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Methodology version:** VGO Framework V1.0 — published, in early commercial practice and evolving. See [V1.0 release notes](docs/RELEASE-NOTES-V1.0.md). The historical [v1.0.0-draft release](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains available.
