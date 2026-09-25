@@ -1,8 +1,8 @@
 # VGO Framework 1.0
 
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
 
-**Status:** Current working draft with AEO clarification. The linked v1.0.0-draft release remains a historical snapshot; EVALUATION-PROTOCOL.md continues to state its frozen v1.0 basis.
+**Status:** Published methodology in early commercial practice, with AEO and action-framework guidance. This status does not assert independent validation. The earlier [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains historical; EVALUATION-PROTOCOL.md remains a separately versioned Draft 0.1 on its frozen baseline.
 
 ## 1. Purpose
 
