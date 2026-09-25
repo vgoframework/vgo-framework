@@ -1,6 +1,6 @@
 # VGO Framework website messaging and implementation brief
 
-**Status:** Proposed website update aligned with the current working definition in this repository. The historical v1.0.0-draft tag remains unchanged. This document is an implementation brief; it does not assert that the live website has already been updated.
+**Status:** Proposed website update aligned with VGO Framework V1.0 published methodology. The historical v1.0.0-draft tag remains unchanged; the public evaluation protocol remains Draft 0.1. This document is an implementation brief; it does not assert that the live website has already been updated.
 
 ## Source of truth and positioning
 
