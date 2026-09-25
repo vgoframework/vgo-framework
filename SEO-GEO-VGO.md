@@ -2,6 +2,8 @@
 
 **Status:** Working draft amendment to the v1.0.0-draft baseline. The tagged release remains a historical snapshot.
 
+**GEO is a focused capability domain within VGO's broader methodology.** GEO asks how generative systems understand, cite, compare, and recommend an entity. VGO preserves that work, connects it with SEO and AEO across discovery surfaces, and evaluates whether observed visibility is relevant to real intent, supported by credible evidence, safe from integrity failures, and useful in decisions. This scope distinction is not an empirical claim that every VGO implementation outperforms every GEO practice.
+
 | Dimension | SEO | AEO | GEO | VGO |
 |---|---|---|---|---|
 | Primary question | Can the right user discover the entity in search? | Does a direct answer accurately address the user's question and represent the entity? | Does a generative system correctly understand, cite, compare or recommend the entity? | Does observed visibility contribute to relevant, trusted discovery and decision making? |
