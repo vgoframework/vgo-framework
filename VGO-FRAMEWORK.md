@@ -1,12 +1,12 @@
 # VGO Framework 1.0
 
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
 
-**Status:** Current working draft with AEO clarification. The linked v1.0.0-draft release remains a historical snapshot; EVALUATION-PROTOCOL.md continues to state its frozen v1.0 basis.
+**Status:** Published methodology in early commercial practice, with AEO and action-framework guidance. This status does not assert independent validation. The earlier [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains historical; EVALUATION-PROTOCOL.md remains a separately versioned Draft 0.1 on its frozen baseline.
 
 ## 1. Purpose
 
-VGO (Visibility Growth Optimization) is an open methodology for growing **effective, trusted, and sustainable visibility** across search, generative AI, and emerging discovery surfaces.
+VGO (Visibility Growth Optimization) is an open **action framework** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The framework guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
 
@@ -58,7 +58,7 @@ Effective GEO is the ability of an entity to be correctly understood, credibly c
 
 SEO, AEO and GEO are related capability lenses within the higher-level VGO growth framework. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
 
-VGO connects them to human intent, owned assets, authority, integrity, measurement, learning and outcomes. Ranking, answer inclusion, mentions and citations do not by themselves prove user choice. See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the comparison.
+VGO connects them to human intent, owned assets, authority, integrity, action, measurement, learning and outcomes. GEO focuses on how a brand appears in generative AI answers; VGO optimizes effective visibility growth outcomes across the wider machine-mediated world. Ranking, answer inclusion, mentions and citations do not by themselves prove user choice. See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the comparison.
 
 ## 9. Visibility Surfaces
 
@@ -68,7 +68,7 @@ VGO v1 focuses primarily on search and generative AI. Future surfaces may evolve
 
 ## 10. Owned assets and external signals
 
-First-party assets and credible third-party signals are complementary.
+First-party assets and credible third-party signals are complementary. Maintainable, machine-readable first-party assets and organization-controlled facts and evidence form a factual foundation; third-party sources support independent corroboration and reach. Organizations should be able to maintain and migrate their core facts, evidence and learning across providers.
 
 Third-party sources support distribution, independent corroboration, citations, authority, and source diversity. Owned assets preserve organization-controlled facts, knowledge, content, evidence, and longitudinal learning.
 
@@ -78,15 +78,17 @@ VGO does not assume rankings, AI citations, or traffic compound permanently. Wha
 
 ## 11. Operating loop
 
-At the framework level:
+**Diagnose → Decide → Act → Verify → Learn → repeat.** Each stage produces a reviewable output and feeds the next cycle. At the asset level, organizations build, observe, improve and retain reusable facts, evidence, content and learning.
 
-**Sense → Decide → Act → Verify → Learn**
+| Stage | Guidance and minimum output |
+|---|---|
+| Diagnose | Specify real users, needs and surfaces; compare observed machine representation with verified organization facts, sources and owned assets; record gaps and uncertainty. |
+| Decide | Prioritize opportunities by intent relevance, evidence, expected usefulness, risks, cost and feasibility; record why an action is chosen. |
+| Act | Define changes to first-party assets, facts, evidence, content, external source engagement or integrity responses; identify an owner, review point and publication conditions. |
+| Verify | Retest comparable scenarios and surfaces, check factual correctness and source provenance, retain raw and contrary evidence, and distinguish observations from outcomes. |
+| Learn | Record actions and results, including failures; update facts, priorities and methods for the next cycle without rewriting historical evidence. |
 
-At the asset and organizational level:
-
-**Build → Observe → Learn → Optimize → Accumulate**
-
-Implementations may use different workflows. VGO does not prescribe a proprietary execution engine.
+Automation may assist observation, gap detection, recommendation, task routing, monitoring and repeatable checks. Implementations should preserve provenance, reviewability, appropriate human approval for consequential external or factual changes, and an override path. VGO does not prescribe a proprietary execution engine or assert that every step can be fully automated. Omseek implements software workflows separately from this public framework.
 
 ## 12. Measurement
 
