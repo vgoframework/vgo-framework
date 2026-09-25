@@ -15,4 +15,8 @@
 11. **Measure longitudinally without assuming causation.** Observe change over time, but do not turn correlation into unsupported causal claims.
 12. **Integrity constrains growth.** Visibility gained by degrading truth, provenance, or trust fails VGO.
 13. **Assets can accumulate; visibility changes.** Organizations can retain content, knowledge, data, evidence, and learning even while rankings and AI outputs continue to change.
-14. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the framework unnecessarily.
+14. **Action requires an owner and a check.** Recommendations should name the affected asset or source, responsible party, evidence, publication condition and verification method.
+15. **Automate with reviewability.** Automate repeatable observation and support for decisions and execution where appropriate; retain provenance, overrides and review for consequential changes.
+16. **Maintain fact ownership and portability.** Organizations should control, update and migrate core facts, evidence and learning across providers; credible third parties remain important corroborating sources.
+17. **Learning is an output.** Keep unsuccessful as well as successful actions and comparable observations to improve the next cycle.
+18. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the framework unnecessarily.
