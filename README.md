@@ -1,5 +1,9 @@
 # VGO Framework
 
+**One-line definition: Visibility growth optimization and governance for the machine-mediated world.**
+
+**Core goal: Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.**
+
 **GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
 VGO (Visibility Growth Optimization) is an open **action framework** for growing effective visibility across search, direct answers, generative AI, agents, and emerging discovery surfaces. It encompasses GEO's focus on generative AI and connects SEO and AEO. Starting with real user intent and verifiable organizational facts, VGO guides diagnosis, prioritization, action, verification, and continuous learning. It supports automation where appropriate and builds durable assets organizations can own and maintain.

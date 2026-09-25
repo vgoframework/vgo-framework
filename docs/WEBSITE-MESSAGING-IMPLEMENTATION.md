@@ -4,15 +4,25 @@
 
 ## Source of truth and positioning
 
+**Canonical Chinese definition:** 机器世界可见度增长优化与治理。
+
+**Canonical Chinese core goal:** 让搜索、AI 和社媒更容易发现你、理解你、采信你、推荐你。
+
+**English definition:** Visibility growth optimization and governance for the machine-mediated world.
+
+**English core goal:** Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.
+
+Keep the one-line definition, core goal, and comparison claim as distinct elements. Social discovery is in the conceptual scope, while V1 observations and the single-scenario public protocol focus primarily on search and generative AI.
+
 Use the same claims in English and Chinese. Link current pages to the current framework documentation and mark the tagged v1.0.0-draft as a historical snapshot. Do not present product-specific automation or proprietary indices as features of the open documentation repository.
 
 **English lead:** GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.
 
 **中文主张：**GEO 关注品牌在生成式 AI 答案中的表现；VGO 优化品牌在整个机器世界的有效可见度增长结果。
 
-**English definition:** VGO is an open action framework for effective visibility growth across search, direct answers, generative AI, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
+**Expanded English description:** VGO is an open action framework for effective visibility growth across search, direct answers, generative AI, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
 
-**中文定义：**VGO 是面向整个机器世界的有效可见度增长开放行动框架，从真实用户意图和可验证的品牌事实出发，指导诊断、决策、执行、验证和学习，在适合的环节推进自动化，并沉淀品牌可长期持有的增长资产。
+**中文展开说明：**VGO 是面向整个机器世界的有效可见度增长开放行动框架，从真实用户意图和可验证的品牌事实出发，指导诊断、决策、执行、验证和学习，在适合的环节推进自动化，并沉淀品牌可长期持有的增长资产。
 
 ## Home page: small, high-impact additions
 
