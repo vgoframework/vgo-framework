@@ -30,3 +30,10 @@
 - Multimodal discovery
 - Commerce/vertical assistants
 - Machine-to-machine discovery
+
+## VGO Rank and Framework capabilities — candidate workstream
+- Publish the VGO Rank design as a separately versioned candidate standard; keep exact weights and thresholds unassigned until calibration evidence exists.
+- Specify entity × market × language × intent-space scope; valid observation events; required and auxiliary visibility surfaces; sampling, evidence, uncertainty, and appeal requirements.
+- Define Framework-owned diagnostic/rating API contracts, signed certificate lifecycle, and the Omseek consumer boundary.
+- Pilot one Chinese-language market and one industry; publish reliability, calibration, distribution, appeal, and outcome-validity evidence before formal public issuance.
+- Open formal public Rank only after legal, conflict-disclosure, calibration, and independent audit gates pass; cap initial public levels at 8 until evidence justifies higher levels.
