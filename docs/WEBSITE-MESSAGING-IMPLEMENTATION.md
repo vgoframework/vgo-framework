@@ -65,3 +65,8 @@ Answer these questions directly:
 - Link the action loop to `VGO-FRAMEWORK.md`, the comparison to `SEO-GEO-VGO.md`, and measurement limitations to `METRICS.md` and the versioned public protocol.
 - Label proprietary Omseek features and metrics as implementation-specific. Do not attribute them to the open framework as required public software components.
 - Publish the website change after the definition PR is merged, then run the same four comprehension checks across homepage, methodology, comparison and GitHub: What is VGO? How does it relate to GEO? What actions does it guide? What is Omseek's separate role?
+
+
+## Technical implementation plan
+
+The technical baseline, architecture decision gate, route inventory, localization requirements, search/accessibility/performance standards, rollout, and rollback plan are specified in [WEBSITE-TECHNICAL-REVAMP-AND-IMPLEMENTATION-PLAN.md](WEBSITE-TECHNICAL-REVAMP-AND-IMPLEMENTATION-PLAN.md). The messaging brief remains the content and positioning source; it does not assert a confirmed production stack.
