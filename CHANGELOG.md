@@ -8,6 +8,8 @@
 - Added a candidate VGO Rank standard covering scope, evidence, rating states, calibration, appeals, certificates, integrity, and staged release gates.
 - Clarified that VGO Framework owns the proposed shared diagnostic/rating capabilities and certificate rules; Omseek consumes the interfaces for optimization and retesting, with conflict disclosures and equal formal sampling requirements.
 - The proposal does not freeze numeric weights or cutoffs and does not claim a live service, independent validation, industry authority, or third-party adoption.
+
+## Unreleased — AEO clarification
 - Added Effective AEO and made direct-answer surfaces explicit in the current working definition and value chain.
 - Clarified overlap between AEO and GEO, avoiding double counting shared observations.
 - Added answer-specific measurement guidance; the tagged v1.0.0-draft release and its frozen evaluation-protocol basis remain historical.
