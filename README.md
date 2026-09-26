@@ -45,6 +45,10 @@ VGO is not only a set of concepts or metrics. It helps an organization identify 
 
 Automation can assist at each stage when evidence, human accountability and appropriate review are preserved. The framework does not claim that any particular software implementation already automates every stage.
 
+## VGO Rank and diagnosis
+
+The Framework is developing **VGO Rank** as a market-scoped, evidence-based rating within the broader Diagnose → Decide → Act → Verify → Learn loop. VGO Framework will define the public measurement protocol and operate the shared rating and diagnostic interfaces; Omseek will consume those capabilities for customer diagnosis, optimization, and follow-up measurement. The proposed rating remains a draft until sampling, calibration, and governance gates are met. See the [VGO Rank design proposal](docs/VGO-RANK-STANDARD-DRAFT-0.1.md).
+
 ## Core value chain
 
 **Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**

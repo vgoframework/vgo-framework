@@ -24,3 +24,9 @@ Proposals for new action methods should identify inputs, a responsible actor, a 
 - Patch: wording/clarification without conceptual change.
 - Minor: backward-compatible additions.
 - Major: material changes to scope, pillars or definitions.
+
+## VGO Rank and shared capabilities
+
+VGO Framework owns the public definitions, measurement and evidence protocol, metric semantics, rating levels, calibration policy, versioning, and appeal rules for VGO Rank. The Framework is the intended authority for the shared diagnostic and rating interfaces and for issuing, suspending, or revoking formal certificates. Until governance and calibration gates are met, Rank materials must be labeled as proposals or trials and must not claim industry authority or independent third-party status.
+
+Omseek is the Framework's initiator, founding maintainer, and first product implementation. It may call Framework interfaces to deliver customer diagnosis, action guidance, optimization, and retesting. It must not override a formal Rank, change rating inputs for its customers, or adjudicate its own customers' appeals. Paid optimization may provide deeper or more frequent private diagnostics, but payment must not change formal rating eligibility, sampling protocol, or certificate outcome. Public cases and certificates must disclose the Framework/Omseek relationship and distinguish the standard owner, evidence provider, issuer, and appeal reviewer; shared roles must be disclosed. Apply the same formal protocol to Omseek, its customers, and non-customers.
