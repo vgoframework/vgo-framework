@@ -40,7 +40,7 @@ VGO 不只是概念或指标体系。它指导组织对照可验证事实诊断�
 
 ## VGO Rank 与诊断治理
 
-VGO Framework 正在制定市场作用域、以证据为基础的 **VGO Rank**，作为“诊断 → 决策 → 执行 → 验证 → 学习”闭环中的公开评级。VGO Framework 将定义公开测量协议，并提供统一评级与诊断接口；Omseek 调用这些能力，为客户提供诊断、优化和后续复测。评分阈值、校准与治理门槛通过前，本方案保持候选草案状态。详见 [VGO Rank 标准设计提案](docs/VGO-RANK-STANDARD-DRAFT-0.1.md)。
+VGO Framework 正在制定市场作用域、以证据为基础的 **VGO Rank**，作为“诊断 → 决策 → 执行 → 验证 → 学习”闭环中的公开评级。VGO Framework 将定义公开测量协议，并提供统一评级与诊断接口；Omseek 调用这些能力，为客户提供诊断、优化和后续复测。评分阈值、校准与治理门槛通过前，本方案保持候选草案状态。详见 [VGO Rank 标准设计提案](docs/VGO-RANK-STANDARD-DRAFT-0.1.md)及 [API 开放与一致性接入规范](docs/VGO-RANK-API-ACCESS-DRAFT-0.1.md)。
 
 ## 核心价值链
 

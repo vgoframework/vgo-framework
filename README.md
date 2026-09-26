@@ -47,7 +47,7 @@ Automation can assist at each stage when evidence, human accountability and appr
 
 ## VGO Rank and diagnosis
 
-The Framework is developing **VGO Rank** as a market-scoped, evidence-based rating within the broader Diagnose → Decide → Act → Verify → Learn loop. VGO Framework will define the public measurement protocol and operate the shared rating and diagnostic interfaces; Omseek will consume those capabilities for customer diagnosis, optimization, and follow-up measurement. The proposed rating remains a draft until sampling, calibration, and governance gates are met. See the [VGO Rank design proposal](docs/VGO-RANK-STANDARD-DRAFT-0.1.md).
+The Framework is developing **VGO Rank** as a market-scoped, evidence-based rating within the broader Diagnose → Decide → Act → Verify → Learn loop. VGO Framework will define the public measurement protocol and operate the shared rating and diagnostic interfaces; Omseek will consume those capabilities for customer diagnosis, optimization, and follow-up measurement. The proposed rating remains a draft until sampling, calibration, and governance gates are met. See the [VGO Rank design proposal](docs/VGO-RANK-STANDARD-DRAFT-0.1.md) and the [API access and conformance proposal](docs/VGO-RANK-API-ACCESS-DRAFT-0.1.md).
 
 ## Core value chain
 
