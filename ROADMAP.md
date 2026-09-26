@@ -37,3 +37,6 @@
 - Define Framework-owned diagnostic/rating API contracts, signed certificate lifecycle, and the Omseek consumer boundary.
 - Pilot one Chinese-language market and one industry; publish reliability, calibration, distribution, appeal, and outcome-validity evidence before formal public issuance.
 - Open formal public Rank only after legal, conflict-disclosure, calibration, and independent audit gates pass; cap initial public levels at 8 until evidence justifies higher levels.
+
+- Define the public Rank query/certificate API and tiered access model in [the API access proposal](docs/VGO-RANK-API-ACCESS-DRAFT-0.1.md).
+- Complete the bilingual website technical audit and staged rebuild plan in [the website technical plan](docs/WEBSITE-TECHNICAL-REVAMP-AND-IMPLEMENTATION-PLAN.md).
