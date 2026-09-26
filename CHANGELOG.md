@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased — API and website technical plans
+- Added a tiered VGO Rank API access proposal: open standards and certificate verification, controlled diagnostic compute, and single Framework issuance of formal Rank.
+- Added a VGO website technical revamp and implementation plan, with source/hosting audit gates before stack-specific implementation.
+
 **Reading copy:** https://www.vgoframework.org/updates/v1-0-0-draft  
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
