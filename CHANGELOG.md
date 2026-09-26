@@ -4,8 +4,6 @@
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
 
-## Unreleased — AEO clarification
-
 ## Unreleased — VGO Rank design proposal
 - Added a candidate VGO Rank standard covering scope, evidence, rating states, calibration, appeals, certificates, integrity, and staged release gates.
 - Clarified that VGO Framework owns the proposed shared diagnostic/rating capabilities and certificate rules; Omseek consumes the interfaces for optimization and retesting, with conflict disclosures and equal formal sampling requirements.
