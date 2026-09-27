@@ -75,3 +75,9 @@ VGO 是上层开放方法论，覆盖 SEO、AEO、GEO 及智能体等新兴发�
 Keep the VGO definition and open-methodology identity. Add a GEO 2.0 method page, homepage capability link, glossary entry and FAQ in both languages. Preserve Effective GEO as the outcome definition. Explain the five upgrades only in generative AI scenarios and retain the broader VGO capability diagram. Do not rename internal enums, APIs or storage contracts.
 
 Synchronize metadata, machine-readable descriptions, reading copies and downloadable material with the same source revision. Publish the methodology before linking a website release to new GitHub files. Omseek product claims must state actual availability; full attribution, uplift computation and 1.5 API/SDK/MCP are not implied by this method. Historical releases and the separately versioned evaluation protocol remain unchanged.
+
+## Frozen wording and publication scope — 2026-09-28
+
+The current canonical wording is **VGO：面向机器世界的有效可见度持续增长优化与治理体系。** English expansion: **A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.**
+
+See [the positioning freeze](VGO-POSITIONING-FREEZE.md). Apply this wording to current website definitions and related documentation; keep repository paths and historical release titles stable. This document update concerns GitHub and website content sources, not server deployment.
