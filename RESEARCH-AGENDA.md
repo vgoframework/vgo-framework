@@ -1,7 +1,7 @@
 # VGO Research Agenda
 
 **Reading copy:** https://www.vgoframework.org/docs/research-agenda  
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO V1.0 published methodology; v1.0.0-draft remains a historical snapshot.
 
 
 VGO should evolve through falsifiable questions rather than marketing claims.

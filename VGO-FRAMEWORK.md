@@ -1,16 +1,16 @@
-# VGO Framework 1.0
+# VGO 1.0
 
-**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
+**Version:** VGO V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
 
-**Status:** Published methodology in early commercial practice, with AEO and action-framework guidance. This status does not assert independent validation. The earlier [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains historical; EVALUATION-PROTOCOL.md remains a separately versioned Draft 0.1 on its frozen baseline.
+**Status:** Published methodology in early commercial practice, with AEO and operating guidance. This status does not assert independent validation. The earlier [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) remains historical; EVALUATION-PROTOCOL.md remains a separately versioned Draft 0.1 on its frozen baseline.
 
 ## 1. Purpose
 
-**One-line definition: Visibility growth optimization and governance for the machine-mediated world.**
+**One-line definition: A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.**
 
 **Core goal: Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.** These are intended outcomes, not guaranteed platform behavior. Social discovery is within the conceptual scope; V1 evidence and the public evaluation draft focus primarily on search and generative AI.
 
-VGO (Visibility Growth Optimization) is an open **action framework** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The framework guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
+VGO (Visibility Growth Optimization) is an open **optimization system** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The system guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
 
@@ -60,7 +60,7 @@ Effective GEO is the ability of an entity to be correctly understood, credibly c
 
 ## 8. SEO, AEO, GEO and VGO
 
-SEO, AEO and GEO are related capability lenses within the higher-level VGO growth framework. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
+SEO, AEO and GEO are related capability lenses within the higher-level VGO growth system. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
 
 VGO connects them to human intent, owned assets, authority, integrity, action, measurement, learning and outcomes. GEO focuses on how a brand appears in generative AI answers; VGO optimizes effective visibility growth outcomes across the wider machine-mediated world. Ranking, answer inclusion, mentions and citations do not by themselves prove user choice. See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the comparison.
 
@@ -92,7 +92,7 @@ VGO does not assume rankings, AI citations, or traffic compound permanently. Wha
 | Verify | Retest comparable scenarios and surfaces, check factual correctness and source provenance, retain raw and contrary evidence, and distinguish observations from outcomes. |
 | Learn | Record actions and results, including failures; update facts, priorities and methods for the next cycle without rewriting historical evidence. |
 
-Automation may assist observation, gap detection, recommendation, task routing, monitoring and repeatable checks. Implementations should preserve provenance, reviewability, appropriate human approval for consequential external or factual changes, and an override path. VGO does not prescribe a proprietary execution engine or assert that every step can be fully automated. Omseek implements software workflows separately from this public framework.
+Automation may assist observation, gap detection, recommendation, task routing, monitoring and repeatable checks. Implementations should preserve provenance, reviewability, appropriate human approval for consequential external or factual changes, and an override path. VGO does not prescribe a proprietary execution engine or assert that every step can be fully automated. Omseek implements software workflows separately from this public system.
 
 ## 12. Measurement
 
@@ -100,7 +100,7 @@ VGO separates raw exposure from effective visibility and business outcomes.
 
 Public measurement should be evidence-led, reproducible where practical, transparent about uncertainty, and explicit about the population, problem spaces, surfaces, and sampling used.
 
-The open framework intentionally does not define proprietary scoring weights, normalization, intent-discovery algorithms, opportunity prioritization, automation strategies, or commercial implementation recipes.
+The open system intentionally does not define proprietary scoring weights, normalization, intent-discovery algorithms, opportunity prioritization, automation strategies, or commercial implementation recipes.
 
 Single-scenario public judgments follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). The conceptual model must not be used to compute a total score.
 
@@ -122,6 +122,19 @@ VGO is not:
 
 ## 15. Extensibility
 
-VGO remains open to future discovery surfaces while keeping the framework stable.
+VGO remains open to future discovery surfaces while keeping the system stable.
 
-New terminology or modules should be introduced only when evidence shows that the existing framework cannot adequately explain a meaningful visibility problem.
+New terminology or modules should be introduced only when evidence shows that the existing system cannot adequately explain a meaningful visibility problem.
+
+## 16. GEO 2.0 within the system
+
+VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+
+```text
+VGO (overarching open methodology)
+  SEO | AEO | GEO [GEO 2.0 method] | agents and emerging surfaces
+  Shared support: intent, facts, evidence, assets, action, verification, integrity, learning
+Separate implementation layer: Omseek and other implementations
+```
+
+The capability lenses overlap and are not mandatory sequential stages. Effective GEO remains the intended outcome defined in section 7; GEO 2.0 is the method for pursuing and maintaining it. See [GEO 2.0](docs/GEO-2.0.md).

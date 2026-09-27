@@ -1,6 +1,6 @@
 # SEO, AEO, GEO and VGO
 
-**Status:** Part of VGO Framework V1.0 published methodology. The [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) tag remains a historical snapshot; the public evaluation protocol is separately marked Draft 0.1.
+**Status:** Part of VGO V1.0 published methodology. The [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) tag remains a historical snapshot; the public evaluation protocol is separately marked Draft 0.1.
 
 > **GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
@@ -8,7 +8,7 @@
 
 GEO addresses generative-system understanding, mentions, citations, comparisons and recommendations. VGO encompasses those capabilities and connects them with SEO, AEO, owned assets, verifiable facts, intent relevance, integrity, action and longitudinal learning. SEO, AEO and GEO overlap in real observations; they are not disjoint channels or mandatory sequential stages.
 
-VGO is an **action framework**, not a metrics-only system or an installable GEO toolkit. It guides diagnosis, prioritization, action, verification and learning. Omseek develops a separate product implementation; proprietary implementation features and scores are not universal requirements of the open framework.
+VGO is an **optimization system**, not a metrics-only system or an installable GEO toolkit. It guides diagnosis, prioritization, action, verification and learning. Omseek develops a separate product implementation; proprietary implementation features and scores are not universal requirements of the open system.
 
 ## GEO capabilities inside VGO
 
@@ -29,7 +29,7 @@ VGO is an **action framework**, not a metrics-only system or an installable GEO 
 | **Ownership** | Build maintainable, machine-readable first-party assets and organization-controlled facts and evidence; use credible third-party sources for distribution and independent corroboration. |
 | **Compounding** | Diagnose, decide, act, verify and learn across time; keep reusable content, facts, evidence, data and decision records under organizational control. |
 
-These are differences in the **scope and requirements of the VGO framework**, not proof that every implementation outperforms every GEO practice. Some GEO practitioners already consider accuracy, owned content, outcomes and long-term effects. VGO explicitly connects these considerations into one cross-surface action and evaluation system.
+These are differences in the **scope and requirements of the VGO system**, not proof that every implementation outperforms every GEO practice. Some GEO practitioners already consider accuracy, owned content, outcomes and long-term effects. VGO explicitly connects these considerations into one cross-surface action and evaluation system.
 
 ## Example: from appearance to action
 
@@ -43,8 +43,16 @@ Rank, answer inclusion, mentions, citations and recommendations are intermediate
 
 **Does VGO replace GEO?** No. VGO encompasses generative visibility work and adds cross-surface action, effectiveness, ownership and learning.
 
-**Is VGO just a set of proprietary metrics?** No. This public framework defines actions, principles and evidence requirements. Private implementation metrics such as VHI, EVR, VCR and OVR are not four required public framework indices.
+**Is VGO just a set of proprietary metrics?** No. This public system defines actions, principles and evidence requirements. Private implementation metrics such as VHI, EVR, VCR and OVR are not four required public system indices.
 
-**Is VGO Framework software?** No. It is an open methodology and action guide. Omseek implements parts of it in a separate product, and software capabilities must be stated and verified for that product.
+**Is VGO software?** No. It is an open methodology and action guide. Omseek implements parts of it in a separate product, and software capabilities must be stated and verified for that product.
 
 **Does VGO rely only on owned sources?** No. Owned facts and evidence provide a maintainable foundation; independent third-party sources corroborate and distribute them.
+
+## GEO 2.0: a method within the GEO capability
+
+VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+
+GEO is the general term for Generative Engine Optimization. Here, GEO 2.0 refers specifically to our approach within VGO, rather than an industry-wide version standard. Other GEO practices may also address facts, evidence and long-term outcomes. Effective GEO describes the intended outcome; GEO 2.0 describes the method for pursuing and maintaining it. The name is not a VGO version number.
+
+VGO provides the cross-surface methodology. GEO 2.0 applies its shared intent, fact, evidence, action and verification capabilities to generative AI contexts. The four cross-surface extensions above remain VGO-level properties. See [the five GEO 2.0 practice upgrades](docs/GEO-2.0.md).

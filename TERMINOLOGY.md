@@ -1,18 +1,30 @@
 # VGO Terminology
 
-**Reading copy:** https://www.vgoframework.org/docs/terminology  
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Reading copy:** https://www.vgoframework.org/docs/terminology
+**Version:** VGO V1.0 published methodology; v1.0.0-draft remains a historical snapshot.
 
+**VGO** — Visibility Growth Optimization; the overarching open methodology for effective visibility growth and governance.
+**Trusted Visibility** — Visibility that is verifiable, relevant, accurate and supported by credible sources.
+**Discovery Surface** — An interface through which people or machines discover entities or information, including search, AI answers and agents.
+**AEO (Answer Engine Optimization)** — Improving the presentation, accuracy and verifiability of direct answers; overlaps with GEO in generative answer contexts.
+**Effective AEO** — Accurate, useful and verifiable information correctly selected and presented in relevant direct answers; a single appearance does not establish effectiveness.
+**GEO (Generative Engine Optimization)** — The general discipline of improving visibility and representation in generative systems, including understanding, mentions, citations, comparisons and recommendations.
+**GEO 2.0** — Our GEO method and capability approach within VGO, grounded in decision scenarios, verified facts, evidence, prioritized action, ongoing verification and maintenance. It is not the whole of VGO, a new VGO version or an industry-wide version standard.
+**Effective GEO** — The intended outcome: being correctly understood, credibly cited, fairly compared and appropriately recommended in valuable generative scenarios. GEO 2.0 is the method for pursuing it.
+**Generative Visibility** — The extent to which an entity is understood, mentioned or cited in generative answers.
+**Visibility Share** — An entity’s share of visibility within a declared query/prompt sample and time window.
+**Citation Share** — Relative citation presence within a declared sample.
+**Entity Consistency** — Consistency of names, attributes, relationships and official sources across sources.
+**Visibility Integrity** — Accuracy, traceable provenance and resistance to manipulation.
+**Poisoning** — Malicious, deceptive or manipulative attempts to influence retrieval, understanding or generation; not all errors or negative information are poisoning.
+**VGO** — The open methodology organizing VGO strategy, action, measurement and defense.
 
-**VGO** — Visibility Growth Optimization; 可见度增长优化.  
-**Trusted Visibility** — 可验证、相关、准确且来源可信的可见度.  
-**Discovery Surface** — 用户或机器发现实体/信息的入口，包括搜索、AI答案、Agent等.  
-**AEO (Answer Engine Optimization)** — 面向搜索及 AI 等直接回答界面，改善相关问题的答案呈现、准确性与可验证性的能力；与生成式答案场景中的 GEO 存在交叉。  
-**Effective AEO** — 相关问题的直接答案中，准确、有用且可验证的信息被正确选取和呈现；出现一次不代表有效。  
-**Generative Visibility** — 在生成式系统回答中被正确理解、提及或引用的程度.  
-**Visibility Share** — 在定义好的查询/Prompt样本与时间窗口内，一个实体获得的可见度份额.  
-**Citation Share** — 在定义样本中获得引用的相对份额.  
-**Entity Consistency** — 名称、属性、关系、官方来源等跨来源的一致程度.  
-**Visibility Integrity** — 可见信息的准确性、来源可追溯性与抗操纵能力.  
-**Poisoning** — 试图通过恶意、欺骗或操纵性信息影响检索、理解或生成结果的行为。不是所有错误或负面信息都属于投毒.  
-**VGO Framework** — 用于组织 VGO 策略、执行、测量与防御的开放方法论.
+[GEO 2.0 method](docs/GEO-2.0.md) · [Capability relationships](SEO-GEO-VGO.md)
+
+**Machine-mediated world** — Search engines, direct-answer interfaces, generative systems, agents and other machine intermediaries affecting discovery and selection; conceptual coverage is not a claim of implemented platform coverage.
+
+**Effective growth** — A goal-specific, evidence-supported improvement assessed under a declared scope and comparable measurement conditions. Observed visibility change is not by itself incremental commercial impact.
+
+**Sustained growth** — A long-term objective pursued through repeated optimization, verification and correction; not a promise of monotonic increases.
+
+**Governance** — Accountability for facts, authorization, evidence lineage, versions, risk and correction across the optimization lifecycle.

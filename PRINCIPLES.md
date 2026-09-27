@@ -1,6 +1,6 @@
 # VGO Principles
 
-**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
+**Version:** VGO V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md))
 
 1. **Human First.** Begin with real people and real needs, not platforms.
 2. **Intent First.** Identify meaningful intent and problem spaces before selecting optimization targets.
@@ -19,4 +19,4 @@
 15. **Automate with reviewability.** Automate repeatable observation and support for decisions and execution where appropriate; retain provenance, overrides and review for consequential changes.
 16. **Maintain fact ownership and portability.** Organizations should control, update and migrate core facts, evidence and learning across providers; credible third parties remain important corroborating sources.
 17. **Learning is an output.** Keep unsuccessful as well as successful actions and comparable observations to improve the next cycle.
-18. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the framework unnecessarily.
+18. **Open to new surfaces, conservative with new concepts.** New terminology should solve demonstrated problems rather than expand the system unnecessarily.

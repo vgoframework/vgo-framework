@@ -1,7 +1,7 @@
 # Contributing to VGO
 
 **Reading copy:** https://www.vgoframework.org/docs/contributing  
-**Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
+**Version:** VGO V1.0 published methodology; v1.0.0-draft remains a historical snapshot.
 
 
 Contributions are welcome through Issues and Pull Requests.

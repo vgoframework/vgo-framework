@@ -1,6 +1,6 @@
 # Governance
 
-The VGO Framework is an open methodology initiated and maintained by Omseek.
+The VGO is an open methodology initiated and maintained by Omseek.
 
 ## Roles
 - **Maintainers:** decide releases, merge proposals and protect conceptual coherence.
@@ -10,8 +10,8 @@ The VGO Framework is an open methodology initiated and maintained by Omseek.
 ## Decision model
 Community contribution does not imply automatic acceptance. Maintainers may accept, revise, defer or reject proposals. Material changes should include rationale in the repository history.
 
-## Neutrality of the framework
-The framework should distinguish general VGO methodology from Omseek-specific product features. Omseek implementations may extend the framework, but proprietary behavior should not be presented as a universal VGO requirement.
+## Neutrality of the system
+The system should distinguish general VGO methodology from Omseek-specific product features. Omseek implementations may extend the system, but proprietary behavior should not be presented as a universal VGO requirement.
 
 ## Public evaluation
 Published evaluation cases should follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md): disclose the protocol version, sample denominator, four conclusion counts, missing cases, and conflicts of interest. Dual independent coding is required. Omseek private scores do not resolve disagreements. External comments do not imply endorsement of VGO.
@@ -27,6 +27,6 @@ Proposals for new action methods should identify inputs, a responsible actor, a 
 
 ## VGO Rank and shared capabilities
 
-VGO Framework owns the public definitions, measurement and evidence protocol, metric semantics, rating levels, calibration policy, versioning, and appeal rules for VGO Rank. The Framework is the intended authority for the shared diagnostic and rating interfaces and for issuing, suspending, or revoking formal certificates. Until governance and calibration gates are met, Rank materials must be labeled as proposals or trials and must not claim industry authority or independent third-party status.
+VGO owns the public definitions, measurement and evidence protocol, metric semantics, rating levels, calibration policy, versioning, and appeal rules for VGO Rank. The system is the intended authority for the shared diagnostic and rating interfaces and for issuing, suspending, or revoking formal certificates. Until governance and calibration gates are met, Rank materials must be labeled as proposals or trials and must not claim industry authority or independent third-party status.
 
-Omseek is the Framework's initiator, founding maintainer, and first product implementation. It may call Framework interfaces to deliver customer diagnosis, action guidance, optimization, and retesting. It must not override a formal Rank, change rating inputs for its customers, or adjudicate its own customers' appeals. Paid optimization may provide deeper or more frequent private diagnostics, but payment must not change formal rating eligibility, sampling protocol, or certificate outcome. Public cases and certificates must disclose the Framework/Omseek relationship and distinguish the standard owner, evidence provider, issuer, and appeal reviewer; shared roles must be disclosed. Apply the same formal protocol to Omseek, its customers, and non-customers.
+Omseek is the system's initiator, founding maintainer, and first product implementation. It may call system interfaces to deliver customer diagnosis, action guidance, optimization, and retesting. It must not override a formal Rank, change rating inputs for its customers, or adjudicate its own customers' appeals. Paid optimization may provide deeper or more frequent private diagnostics, but payment must not change formal rating eligibility, sampling protocol, or certificate outcome. Public cases and certificates must disclose the system/Omseek relationship and distinguish the standard owner, evidence provider, issuer, and appeal reviewer; shared roles must be disclosed. Apply the same formal protocol to Omseek, its customers, and non-customers.

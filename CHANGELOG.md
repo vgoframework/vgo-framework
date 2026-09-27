@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — 2026-09-28 positioning update
+- Public positioning is now “VGO: a system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.”
+- Current documentation and website reading copy use system terminology. Stable repository paths and historical releases retain their identifiers.
+- Added a Chinese methodological paper draft; no empirical effectiveness or peer-review claim.
+
+
 **Reading copy:** https://www.vgoframework.org/updates/v1-0-0-draft  
 **Version:** [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft)
 
@@ -21,3 +27,9 @@
 - Added trusted-visibility measurement model.
 - Added Visibility Integrity & Poisoning Defense as a first-class pillar.
 - Added governance, terminology and contribution rules.
+
+## Unreleased — GEO 2.0 naming alignment
+
+- Name the GEO method within VGO without changing VGO’s definition or hierarchy.
+- Add bilingual GEO 2.0 guidance, measurement mapping, terminology and case fields.
+- Align living terminology and contribution/research version notes; retain historical releases and the evaluation protocol baseline.

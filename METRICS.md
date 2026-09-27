@@ -1,10 +1,10 @@
 # VGO Metrics 1.0
 
-**Version:** VGO Framework V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md)); public evaluation protocol Draft 0.1 remains separately scoped.
+**Version:** VGO V1.0 published methodology ([release notes](docs/RELEASE-NOTES-V1.0.md)); public evaluation protocol Draft 0.1 remains separately scoped.
 
 ## 1. Measurement serves action and verification
 
-VGO is an action framework. Metrics help diagnose gaps, prioritize interventions, verify comparable observations and update the next action plan; a score alone is not an execution plan or an outcome. Report the scenario, action, affected asset, observation window, uncertainty and contrary evidence when evaluating change.
+VGO is an optimization system. Metrics help diagnose gaps, prioritize interventions, verify comparable observations and update the next action plan; a score alone is not an execution plan or an outcome. Report the scenario, action, affected asset, observation window, uncertainty and contrary evidence when evaluating change.
 
 **Outcome levels:** (1) answer and search signals, such as mentions and citations; (2) scenario-bound evidence-backed Effective Visibility, including relevant intent, accuracy and integrity; (3) observed user choice or business results, which require additional downstream evidence. Do not promote a level (1) signal into level (2) or (3) without evidence. Cross-surface longitudinal growth requires repeated, comparable observations and must not be inferred from the public single-scenario protocol alone.
 
@@ -62,13 +62,13 @@ These signals improve observability but do not create perfect causal attribution
 
 ## 7. Composite indices
 
-Composite indices can be useful for diagnosis and communication, but the VGO Framework does not require one universal public score.
+Composite indices can be useful for diagnosis and communication, but the VGO does not require one universal public score.
 
 Any composite score should disclose enough about its conceptual dimensions and limitations to be interpretable. Commercial implementations may use proprietary models.
 
 ## 8. Public / proprietary boundary
 
-The open VGO Framework defines **measurement principles and conceptual standards**.
+The open VGO defines **measurement principles and conceptual standards**.
 
 It intentionally does **not** publish:
 - proprietary scoring weights;
@@ -80,4 +80,8 @@ It intentionally does **not** publish:
 - commercial diagnosis recipes;
 - implementation-specific competitive intelligence methods.
 
-VHI, EVR, VCR and OVR may appear in private implementation discussions, but are not four mandatory public VGO indices or validated targets of the single-scenario public protocol. This boundary allows the action framework to remain open while implementations can develop differentiated technology and operational systems.
+VHI, EVR, VCR and OVR may appear in private implementation discussions, but are not four mandatory public VGO indices or validated targets of the single-scenario public protocol. This boundary allows the optimization system to remain open while implementations can develop differentiated technology and operational systems.
+
+## 9. GEO 2.0 measurement mapping
+
+In generative scenarios, connect decision-scenario coverage to versioned question sets, understanding to verified fact assertions, citation to claim-supporting evidence, recommendation to scenario relevance, action to authorized change records, and maintenance to repeated comparable observations. Record denominators, sampling failures and uncertainty for each measure. These are applications of the shared VGO measurement principles, not a new composite score or an expansion of the public evaluation protocol. See [GEO 2.0](docs/GEO-2.0.md).
