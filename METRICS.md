@@ -62,7 +62,7 @@ These signals improve observability but do not create perfect causal attribution
 
 ## 7. Composite indices
 
-Composite indices can be useful for diagnosis and communication, but the VGO does not require one universal public score.
+Composite indices can be useful for diagnosis and communication. VGO Rank v1.0 defines a scoped public VR0–VR10 rating for eligible entities; it is not a universal, cross-market score. VHI and downstream business outcomes remain separate. See [the normative Rank standard](docs/VGO-RANK-STANDARD-V1.0.md).
 
 Any composite score should disclose enough about its conceptual dimensions and limitations to be interpretable. Commercial implementations may use proprietary models.
 
@@ -70,9 +70,7 @@ Any composite score should disclose enough about its conceptual dimensions and l
 
 The open VGO defines **measurement principles and conceptual standards**.
 
-It intentionally does **not** publish:
-- proprietary scoring weights;
-- normalization formulas;
+It publishes the VGO Rank v1.0 formula, sampling weights and grade thresholds. It does **not** publish:
 - intent-discovery algorithms;
 - high-value scoring logic;
 - opportunity-prioritization algorithms;
@@ -80,7 +78,7 @@ It intentionally does **not** publish:
 - commercial diagnosis recipes;
 - implementation-specific competitive intelligence methods.
 
-VHI, EVR, VCR and OVR may appear in private implementation discussions, but are not four mandatory public VGO indices or validated targets of the single-scenario public protocol. This boundary allows the optimization system to remain open while implementations can develop differentiated technology and operational systems.
+VHI is a separate diagnostic health index and does not directly raise VGO Rank. EVR, VCR and OVR may appear in private implementation discussions but are not mandatory public Rank components or validated targets of the single-scenario public protocol. This boundary allows the optimization system to remain open while implementations can develop differentiated technology and operational systems.
 
 ## 9. GEO 2.0 measurement mapping
 
