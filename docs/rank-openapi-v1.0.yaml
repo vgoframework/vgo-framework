@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.1.1
 info:
   title: VGO Framework Rank API
   version: 1.0.0
@@ -145,6 +145,32 @@ paths:
       security: []
       responses:
         '200': {description: Public issuer keys, content: {application/json: {schema: {type: object, required: [keys], properties: {keys: {type: array, items: {type: object, additionalProperties: true}}}}}}}
+  /certificates/verify:
+    post:
+      tags: [Certificates]
+      operationId: verifyCertificate
+      security: []
+      description: Verify signature and current state. Only certificate ID or JWS is accepted; never dereference arbitrary URLs.
+      requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/VerifyInput'}}}}
+      responses:
+        '200': {description: Validity report, content: {application/json: {schema: {$ref: '#/components/schemas/Verification'}}}}
+        default: {$ref: '#/components/responses/Error'}
+  /rankings:
+    get:
+      tags: [Certificates]
+      operationId: listRankings
+      security: []
+      description: Published market/industry board only after formal issuance gate and public listing review.
+      parameters:
+        - {name: market, in: query, required: true, schema: {type: string}}
+        - {name: locale, in: query, required: true, schema: {type: string}}
+        - {name: industry, in: query, required: true, schema: {type: string}}
+        - {name: question_space_version, in: query, required: true, schema: {type: string}}
+        - {$ref: '#/components/parameters/Cursor'}
+        - {name: limit, in: query, required: false, schema: {type: integer, minimum: 1, maximum: 100, default: 20}}
+      responses:
+        '200': {description: Eligible public listings for one comparable cohort, content: {application/json: {schema: {$ref: '#/components/schemas/RankingList'}}}}
+        default: {$ref: '#/components/responses/Error'}
   /appeals:
     post:
       tags: [Appeals]
@@ -378,6 +404,44 @@ components:
         status_version: {type: integer, minimum: 1}
         checked_at: {type: string, format: date-time}
         next_check_before: {type: string, format: date-time}
+    VerifyInput:
+      type: object
+      oneOf:
+        - {required: [certificate_id]}
+        - {required: [jws]}
+      properties:
+        certificate_id: {type: string}
+        jws: {type: string}
+      additionalProperties: false
+    Verification:
+      type: object
+      required: [certificate_id, signature_valid, current_status, currently_valid, checked_at]
+      properties:
+        certificate_id: {type: string}
+        signature_valid: {type: boolean}
+        current_status: {type: string, enum: [rated, watch, restricted, revoked, expired, unknown]}
+        currently_valid: {type: boolean}
+        checked_at: {type: string, format: date-time}
+        reason_code: {type: [string, 'null']}
+    RankingList:
+      type: object
+      required: [items, market, locale, industry, question_space_version]
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            required: [entity_id, certificate_id, level, scope_id]
+            properties:
+              entity_id: {type: string}
+              certificate_id: {type: string}
+              level: {type: integer, minimum: 0, maximum: 10}
+              scope_id: {type: string}
+        market: {type: string}
+        locale: {type: string}
+        industry: {type: string}
+        question_space_version: {type: string}
+        next_cursor: {type: [string, 'null']}
     AppealInput:
       type: object
       required: [certificate_id, reason, evidence_urls, contact]
