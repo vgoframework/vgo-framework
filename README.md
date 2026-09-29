@@ -59,7 +59,7 @@ Automation can assist at each stage when evidence, human accountability and appr
 
 ## VGO Rank and diagnosis
 
-The system is developing **VGO Rank** as a market-scoped, evidence-based rating within the broader Diagnose → Decide → Act → Verify → Learn loop. VGO will define the public measurement protocol and operate the shared rating and diagnostic interfaces; Omseek will consume those capabilities for customer diagnosis, optimization, and follow-up measurement. The proposed rating remains a draft until sampling, calibration, and governance gates are met. See the [VGO Rank design proposal](docs/VGO-RANK-STANDARD-DRAFT-0.1.md).
+**VGO Rank v1.0 is a frozen, market-scoped rating standard (VR0–VR10).** Its sampling, scoring, thresholds, certificate lifecycle, and issuance gates are defined in the [normative standard](docs/VGO-RANK-STANDARD-V1.0.md). Framework owns the rating protocol and formal issuance; Omseek consumes its interfaces for diagnosis and optimization. Frozen rules do not imply that a rating service, formal certificates, or independently validated outcomes already exist. Until the pilot and publication gates pass, show only clearly marked trial ratings.
 
 ## Core value chain
 
@@ -114,9 +114,9 @@ VGO v1 focuses primarily on search and generative AI while remaining open to fut
 
 VGO separates raw exposure from effective visibility. Public system measurement should be evidence-led, reproducible where practical, and transparent about uncertainty.
 
-The open system defines what meaningful measurement should consider. It intentionally does **not** publish proprietary weighting models, intent-discovery algorithms, prioritization logic, automation recipes, or commercial implementation methods.
+The open system publishes the VGO Rank v1.0 scoring weights and thresholds. Proprietary intent-discovery algorithms, action prioritization, automation recipes, and commercial implementation methods remain separate.
 
-See [METRICS.md](METRICS.md). Single-scenario public judgments follow the testable draft [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft is not a general certification and does not define a universal score.
+Framework Rank developer contracts: [service architecture](docs/RANK-SERVICE-ARCHITECTURE-V1.0.md), [OpenAPI](docs/rank-openapi-v1.0.yaml), [certificate and trust](docs/RANK-CERTIFICATE-AND-TRUST-V1.0.md), [integration guide](docs/DEVELOPER-INTEGRATION-V1.0.md). These specify planned services and do not assert production availability.\n\nSee [METRICS.md](METRICS.md). Single-scenario public judgments follow the testable draft [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft is not a general certification and does not define a universal score.
 
 ## Integrity
 

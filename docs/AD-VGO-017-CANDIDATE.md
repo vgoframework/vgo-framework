@@ -1,10 +1,10 @@
-# Candidate decision record: VGO Rank and Framework diagnostic/rating capabilities
+# Decision record: VGO Rank and Framework diagnostic/rating capabilities
 
-**ID:** AD-VGO-017 (candidate)  
-**Status:** Proposed; pending framework governance review  
-**Date:** 2026-09-26
+**ID:** AD-VGO-017  
+**Status:** Adopted for the v1.0 normative protocol; formal issuance gated  
+**Date:** 2026-09-29
 
-## Decision proposed
+## Decision adopted
 
 Make VGO Framework the owner of the public VGO Rank standard and the shared diagnostic/rating capability boundary. Framework defines protocols, metrics, calibration, certificate lifecycle, and appeal rules, and is the sole formal issuer of VGO Rank. Omseek consumes Framework interfaces for customer diagnosis, action planning, optimization, and retesting.
 
@@ -18,11 +18,11 @@ This extends VGO from a method for guiding action into an end-to-end operational
 - Payment may expand private diagnostic depth or frequency but cannot change formal Rank inputs, thresholds, appeals, or outcomes.
 - Certificates disclose the standards owner, evidence provider, issuer, appeal reviewer, and relevant Omseek relationship.
 - Do not claim independent governance, independent validation, industry authority, or broad adoption before those conditions are evidenced.
-- Keep exact weights, thresholds, minimum samples, and production API versions open until empirical calibration and review.
+- The [v1.0 standard](VGO-RANK-STANDARD-V1.0.md) freezes weights, thresholds and sample minima. Formal issuance requires the stated pilot, calibration and governance gates. Production API paths and SDK versions require separate implementation contracts.
 
 ## Adoption tests and follow-up
 
-Before implementation binding, map this proposal to the applicable contract decisions and tests, including AD-VGO-017 decision-driven behavior, AD-VGO-015 evidence drill-down, and AD-PROD-013 semantic-boundary checks where those contracts apply. Update status-machine/API documents only in the implementation phase, then run the repository's `npm run check:contracts` gate in the implementation repository. This documentation proposal alone does not claim those implementation gates passed.
+For implementation, map this decision to the applicable contract decisions and tests, including AD-VGO-017 decision-driven behavior, AD-VGO-015 evidence drill-down, and AD-PROD-013 semantic-boundary checks where those contracts apply. Update status-machine/API documents only in the implementation phase, then run the repository's `npm run check:contracts` gate in the implementation repository. This documentation decision does not claim those implementation gates passed.
 
 ## Consequences
 
