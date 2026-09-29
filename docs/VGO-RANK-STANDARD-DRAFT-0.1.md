@@ -1,3 +1,5 @@
+> **Historical candidate, superseded on 2026-09-29 by the [frozen VGO Rank v1.0 standard](VGO-RANK-STANDARD-V1.0.md).** This document records the earlier proposal; its open thresholds and proposal status are no longer normative.
+
 # VGO Rank Standard Candidate 0.1
 
 > 中文工作稿：《VGO Framework：诊断、评级与治理最终方案 v2.1》
