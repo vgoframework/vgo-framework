@@ -50,7 +50,7 @@ VGO 不只是概念或指标体系。它指导组织对照可验证事实诊断�
 
 自动化可辅助各环节，但必须保留证据、责任和适当审核。体系不声称某个软件已经自动完成所有步骤。
 
-## VGO Rank 与诊断治理\n\nFramework 开发契约：[服务架构](docs/RANK-SERVICE-ARCHITECTURE-V1.0.md)、[OpenAPI](docs/rank-openapi-v1.0.yaml)、[证书签发与验签](docs/RANK-CERTIFICATE-AND-TRUST-V1.0.md)、[开发者接入](docs/DEVELOPER-INTEGRATION-V1.0.md)。这些是实施规范，生产服务尚待开发与验收。\n
+## VGO Rank 与诊断治理\n\n[开发者中心完整方案 v1.0](docs/DEVELOPER-CENTER-COMPLETE-V1.0.md) 定义能力分层、门户、接入与发布门槛。Framework 开发契约：[服务架构](docs/RANK-SERVICE-ARCHITECTURE-V1.0.md)、[OpenAPI](docs/rank-openapi-v1.0.yaml)、[证书签发与验签](docs/RANK-CERTIFICATE-AND-TRUST-V1.0.md)、[开发者接入](docs/DEVELOPER-INTEGRATION-V1.0.md)。这些是实施规范，生产服务尚待开发与验收。\n
 
 **VGO Rank v1.0 评级标准已冻结，等级为 VR0—VR10。** [正式标准](docs/VGO-RANK-STANDARD-V1.0.md)规定作用域、采样、公式、阈值、证书和签发门槛。Framework 负责协议与正式签发；Omseek 调用其能力做诊断、优化和复测。标准冻结不代表评级服务已上线，也不代表完成独立验证；首发验收通过前只能展示明确标注的试验评级。
 
