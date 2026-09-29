@@ -309,6 +309,57 @@ components:
         status: {type: string, enum: [queued, running, insufficient_evidence, completed, failed]}
         reason_codes: {type: array, items: {type: string}}
         certificate_id: {type: [string, 'null']}
+    CertificatePayload:
+      type: object
+      description: Signed JWS payload. Scores are integer basis points in [0,10000].
+      required: [iss, aud, jti, iat, nbf, exp, certificate_id, entity_id, entity_type, scope_id, market, locale, industry, question_space_version, surface_protocol_version, rank_protocol_version, window_start, window_end, level, s_raw, s_conservative, confidence_90, coverage, accuracy_gate, evidence_manifest_hash, score_run_id, roles, affiliations]
+      properties:
+        iss: {type: string, const: 'https://api.vgoframework.org'}
+        aud: {type: string, const: vgo-rank-verifiers}
+        jti: {type: string}
+        iat: {type: integer, description: Unix seconds}
+        nbf: {type: integer, description: Unix seconds}
+        exp: {type: integer, description: Unix seconds; at most 45 days from iat}
+        certificate_id: {type: string}
+        entity_id: {type: string}
+        entity_type: {type: string, enum: [brand, product]}
+        scope_id: {type: string}
+        market: {type: string}
+        locale: {type: string}
+        industry: {type: string}
+        question_space_version: {type: string}
+        surface_protocol_version: {type: string}
+        rank_protocol_version: {type: string}
+        window_start: {type: string, format: date-time}
+        window_end: {type: string, format: date-time}
+        level: {type: integer, minimum: 0, maximum: 10}
+        s_raw: {type: integer, minimum: 0, maximum: 10000}
+        s_conservative: {type: integer, minimum: 0, maximum: 10000}
+        confidence_90:
+          type: object
+          required: [lower, upper]
+          properties:
+            lower: {type: integer, minimum: 0, maximum: 10000}
+            upper: {type: integer, minimum: 0, maximum: 10000}
+        coverage:
+          type: object
+          required: [planned, qualified, by_surface]
+          properties:
+            planned: {type: integer, minimum: 0}
+            qualified: {type: integer, minimum: 0}
+            by_surface: {type: object, additionalProperties: {type: integer, minimum: 0}}
+        accuracy_gate: {type: string}
+        evidence_manifest_hash: {type: string, pattern: '^[0-9a-f]{64}$'}
+        score_run_id: {type: string}
+        roles:
+          type: object
+          required: [standard_owner, evidence_providers, issuer, appeal_reviewer]
+          properties:
+            standard_owner: {type: string}
+            evidence_providers: {type: array, items: {type: string}}
+            issuer: {type: string}
+            appeal_reviewer: {type: string}
+        affiliations: {type: array, items: {type: string}}
     Certificate:
       type: object
       required: [certificate_id, jws, status_url]
