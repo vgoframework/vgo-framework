@@ -116,7 +116,7 @@ VGO separates raw exposure from effective visibility. Public system measurement 
 
 The open system publishes the VGO Rank v1.0 scoring weights and thresholds. Proprietary intent-discovery algorithms, action prioritization, automation recipes, and commercial implementation methods remain separate.
 
-See [METRICS.md](METRICS.md). Single-scenario public judgments follow the testable draft [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft is not a general certification and does not define a universal score.
+Framework Rank developer contracts: [service architecture](docs/RANK-SERVICE-ARCHITECTURE-V1.0.md), [OpenAPI](docs/rank-openapi-v1.0.yaml), [certificate and trust](docs/RANK-CERTIFICATE-AND-TRUST-V1.0.md), [integration guide](docs/DEVELOPER-INTEGRATION-V1.0.md). These specify planned services and do not assert production availability.\n\nSee [METRICS.md](METRICS.md). Single-scenario public judgments follow the testable draft [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). That draft is not a general certification and does not define a universal score.
 
 ## Integrity
 
