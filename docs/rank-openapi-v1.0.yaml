@@ -139,6 +139,11 @@ paths:
         '200': {description: Authoritative current state; no-store or max-age 30, content: {application/json: {schema: {$ref: '#/components/schemas/CertificateStatus'}}}}
         default: {$ref: '#/components/responses/Error'}
   /.well-known/jwks.json:
+    servers:
+      - url: https://api.vgoframework.org
+        description: Production issuer root (planned)
+      - url: https://sandbox-api.vgoframework.org
+        description: Sandbox issuer root (planned)
     get:
       tags: [Certificates]
       operationId: getIssuerJwks
