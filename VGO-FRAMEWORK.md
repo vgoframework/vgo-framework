@@ -100,7 +100,7 @@ VGO separates raw exposure from effective visibility and business outcomes.
 
 Public measurement should be evidence-led, reproducible where practical, transparent about uncertainty, and explicit about the population, problem spaces, surfaces, and sampling used.
 
-The open system intentionally does not define proprietary scoring weights, normalization, intent-discovery algorithms, opportunity prioritization, automation strategies, or commercial implementation recipes.
+The public [VGO Rank v1.0 standard](docs/VGO-RANK-STANDARD-V1.0.md) defines its own scoped scoring weights, normalization and thresholds. The broader VGO operating framework does not require that formula for every diagnosis. Intent-discovery algorithms, action prioritization, automation strategies and commercial implementation recipes remain implementation-specific.
 
 Single-scenario public judgments follow [EVALUATION-PROTOCOL.md](EVALUATION-PROTOCOL.md). The conceptual model must not be used to compute a total score.
 
