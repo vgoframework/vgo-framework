@@ -1,10 +1,10 @@
 # VGO Framework v1.0 Engineering Baseline
 **Status: FROZEN ENGINEERING CONTRACT — 2026-10-01**
 
-This is the engineering source-of-truth map for VGO shared measurement, diagnosis, Rank and governance. It does not claim production services passed release gates.
+This is the engineering source-of-truth map for VGO shared measurement, growth/opportunity diagnosis, Rank and governance. It does not claim production services passed release gates.
 
 ## 1. Normative architecture
-**Specification → Measurement → Diagnosis → Governance/Action Contract → Re-measurement → Rank/Certificate**
+**Specification → Measurement → Growth/Gap Diagnosis → Optimization/Action Contract → Re-measurement & Verification → Governance/Integrity → Rank/Certificate**
 
 VGO Framework owns shared semantic/computational contracts. Omseek and other products may implement workflow, customer assets, optimization and execution, but MUST NOT redefine VGO measurement semantics, mutate Framework evidence, calculate a competing VGO Rank, or bypass certificate state.
 
