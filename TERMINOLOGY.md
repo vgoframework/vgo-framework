@@ -3,7 +3,7 @@
 **Reading copy:** https://www.vgoframework.org/docs/terminology
 **Version:** VGO V1.0 published methodology; v1.0.0-draft remains a historical snapshot.
 
-**VGO** — Visibility Growth Optimization; the overarching open methodology for effective visibility growth and governance.
+**VGO** — Visibility Growth Optimization; **机器世界可见度增长优化与治理**. Effective visibility growth and optimization are the primary value path; governance runs throughout the lifecycle to keep growth correct, credible, durable and safe.
 **Trusted Visibility** — Visibility that is verifiable, relevant, accurate and supported by credible sources.
 **Discovery Surface** — An interface through which people or machines discover entities or information, including search, AI answers and agents.
 **AEO (Answer Engine Optimization)** — Improving the presentation, accuracy and verifiability of direct answers; overlaps with GEO in generative answer contexts.
