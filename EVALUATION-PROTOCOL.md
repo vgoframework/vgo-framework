@@ -1,3 +1,5 @@
+> **Legacy notice (2026-10-01):** This Draft 0.1 remains for historical single-scenario case evaluation. It is not the engineering source of truth for VGO Diagnosis or VGO Rank. New implementations MUST use [VGO Framework v1.0 Engineering Baseline](docs/VGO-ENGINEERING-BASELINE-V1.0.md), [Shared Measurement Protocol v1.0](docs/MEASUREMENT-PROTOCOL-V1.0.md), and the frozen Rank standard. Where this draft conflicts, the frozen v1.0 contracts prevail.
+
 # VGO Framework Public Evaluation Protocol (Draft 0.1)
 
 **Status:** A public draft available for testing. It has not been independently validated and is not a completed specification.  
