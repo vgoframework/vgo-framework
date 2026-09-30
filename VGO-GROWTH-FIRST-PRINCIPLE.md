@@ -11,7 +11,7 @@ The semantic order is intentional:
 
 **Visibility → Growth → Optimization → Governance**
 
-VGO's primary objective is **growth of effective visibility in the machine world**. Governance is a supporting and protecting capability: it makes growth more correct, credible, durable, measurable and safe. Governance must never replace growth as the primary value proposition.
+VGO's primary objective is **growth of effective visibility in the machine world**. Growth and optimization form the primary value path. Governance runs through the full lifecycle to keep growth correct, credible, durable and safe; it must not displace growth and optimization in the primary value proposition.
 
 Core goal:
 
@@ -21,11 +21,10 @@ Core goal:
 
 All VGO definitions, documents, websites, APIs, products, training and commercial materials MUST preserve this priority:
 
-1. **Growth first** — expand effective visibility in high-value markets, question spaces and machine surfaces.
-2. **Optimization second** — identify gaps and improve foundations, content, search, AEO/GEO, evidence and distribution.
-3. **Asset accumulation** — convert improvements into durable machine-readable truth, content and evidence assets.
-4. **Governance** — maintain correctness, consistency, freshness, trust, integrity and risk control.
-5. **Verification and learning** — measure outcomes, learn what works and feed the next growth cycle.
+1. **Growth and optimization first** — expand effective visibility in high-value markets, question spaces and machine surfaces, while continuously identifying gaps and optimizing foundations, content, search, AEO/GEO, evidence and distribution.
+2. **Asset accumulation** — convert improvements into durable machine-readable truth, content and evidence assets.
+3. **Governance throughout** — maintain correctness, consistency, freshness, trust, integrity and risk control across the growth lifecycle.
+4. **Verification and learning** — measure observed outcomes, evaluate changes and feed evidence into the next growth cycle.
 
 Canonical flywheel:
 
@@ -33,7 +32,7 @@ Canonical flywheel:
 
 Governance surrounds and protects the flywheel. **Effective visibility growth is the engine.**
 
-## 3. Attack before defense
+## 3. Growth opportunity before defensive risk
 
 Customer-facing and product language SHOULD follow:
 
@@ -60,7 +59,7 @@ Therefore:
 
 GEO remains an important component of VGO.
 
-Traditional GEO primarily focuses on visibility in generative AI answers. VGO extends the optimization object to the wider machine world and extends the objective from visibility to **effective visibility growth**, supported by foundations, evidence, measurement, execution, verification and governance.
+Traditional GEO focuses on optimizing brand mentions, citations and recommendations in generative AI answers, without making effectiveness the governing objective. VGO extends the optimization object to the wider machine world and makes **effective visibility growth** the governing objective, supported by foundations, evidence, measurement, execution, verification and governance.
 
 Canonical framing:
 
@@ -80,4 +79,4 @@ When drift is detected, rewrite in this order:
 - **Primary objective:** 增长机器世界有效可见度。
 - **Core goal:** 让机器世界发现你、理解你、相信你、推荐你。
 - **Principle:** 增长在前，治理在后；机会在前，风险在后；进攻在前，防守在后。
-- **Governance role:** 让增长更正确、更可信、更持续、更安全，而不是取代增长。
+- **Governance role:** 治理贯穿增长全过程，让增长更正确、更可信、更持续、更安全，但不取代增长与优化的第一价值主线。
