@@ -1,0 +1,114 @@
+openapi: 3.1.1
+info:
+  title: VGO Diagnosis API
+  version: 1.0.0
+  description: Frozen wire baseline for Framework-owned VGO Diagnosis. Diagnosis never emits VGO Rank.
+paths:
+  /v1/diagnosis-runs:
+    post:
+      operationId: createDiagnosisRun
+      security: [{oauth2: [diagnostics:run]}]
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema: {type: string, minLength: 8, maxLength: 255}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/CreateDiagnosisRun'}
+      responses:
+        '202':
+          description: Accepted
+          content: {application/json: {schema: {$ref: '#/components/schemas/DiagnosisRun'}}}
+        '409': {$ref: '#/components/responses/Error'}
+  /v1/diagnosis-runs/{run_id}:
+    get:
+      operationId: getDiagnosisRun
+      security: [{oauth2: [diagnostics:read]}]
+      parameters:
+        - {in: path, name: run_id, required: true, schema: {type: string}}
+      responses:
+        '200':
+          description: Run
+          content: {application/json: {schema: {$ref: '#/components/schemas/DiagnosisRun'}}}
+        '404': {$ref: '#/components/responses/Error'}
+  /v1/diagnosis-runs/{run_id}/findings:
+    get:
+      operationId: listDiagnosisFindings
+      security: [{oauth2: [diagnostics:read]}]
+      parameters:
+        - {in: path, name: run_id, required: true, schema: {type: string}}
+      responses:
+        '200':
+          description: Findings
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items]
+                properties: {items: {type: array, items: {$ref: '#/components/schemas/Finding'}}}
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: /oauth/token
+          scopes:
+            diagnostics:run: Run diagnosis
+            diagnostics:read: Read diagnosis
+            evidence:read: Read authorized evidence
+  responses:
+    Error:
+      description: Error
+      content: {application/json: {schema: {$ref: '#/components/schemas/Error'}}}
+  schemas:
+    CreateDiagnosisRun:
+      type: object
+      additionalProperties: false
+      required: [entity_id, scope_id, mode]
+      properties:
+        entity_id: {type: string}
+        scope_id: {type: string}
+        mode: {type: string, enum: [baseline, retest]}
+        baseline_run_id: {type: [string, 'null']}
+        candidate_evidence_ids: {type: array, items: {type: string}}
+    DiagnosisRun:
+      type: object
+      required: [id, entity_id, scope_id, mode, state, protocol_versions, input_digest]
+      properties:
+        id: {type: string}
+        entity_id: {type: string}
+        scope_id: {type: string}
+        mode: {type: string, enum: [baseline, retest]}
+        state: {type: string, enum: [queued, planning, collecting, adjudicating, analyzing, completed, insufficient_evidence, failed, cancelled]}
+        policy_condition: {type: [string, 'null'], enum: [restricted, null]}
+        baseline_run_id: {type: [string, 'null']}
+        evidence_snapshot_id: {type: [string, 'null']}
+        input_digest: {type: string}
+        protocol_versions: {type: object, additionalProperties: {type: string}}
+    Finding:
+      type: object
+      required: [id, dimension, severity, code, claim, evidence_refs, contrary_evidence_refs, confidence]
+      properties:
+        id: {type: string}
+        dimension: {type: string}
+        severity: {type: string, enum: [info, low, medium, high, critical]}
+        code: {type: string}
+        claim: {type: string}
+        evidence_refs: {type: array, items: {type: string}}
+        contrary_evidence_refs: {type: array, items: {type: string}}
+        confidence: {type: number, minimum: 0, maximum: 1}
+        status: {type: string}
+        affected_surfaces: {type: array, items: {type: string}}
+    Error:
+      type: object
+      required: [code, message, retryable, request_id]
+      properties:
+        code: {type: string}
+        message: {type: string}
+        retryable: {type: boolean}
+        request_id: {type: string}
+        details: {type: object}
