@@ -10,7 +10,7 @@
 
 **Core goal: Help the machine world discover, understand, trust, and recommend your brand.** These are intended outcomes, not guaranteed platform behavior. Growth and optimization are the primary value path; governance runs throughout the lifecycle to keep growth correct, credible, durable and safe. V1 evidence and the public evaluation draft focus primarily on search and generative AI.
 
-VGO (Visibility Growth Optimization) is an open **optimization system** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The system guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
+VGO (Visibility Growth Optimization) is an open **growth and optimization system** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The system guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
 
