@@ -2,7 +2,7 @@
 **Status: FROZEN DEVELOPMENT CONTRACT — 2026-10-01**
 
 ## 1. Purpose
-Framework-owned evidence-backed diagnosis for a defined entity/scope: where and why machine-world effective visibility is weak, wrong, untrusted or unstable, and what should be verified next. It is not Rank, a certificate, guaranteed business outcome, or Omseek-private score.
+Framework-owned evidence-backed diagnosis for a defined entity/scope: where effective-visibility growth opportunities and gaps exist, what may limit discovery, understanding, trust or recommendation, and what should be optimized or verified next. It also identifies where visibility is wrong, untrusted or unstable. It is not Rank, a certificate, guaranteed business outcome, or Omseek-private score.
 
 ## 2. Input
 Request uses existing entity_id and scope_id; mode baseline|retest. Scope pins entity type, market, locale, industry/question space and surfaces. Website/domain is optional. Caller may submit authorized canonical facts and source references as candidate evidence, never final dimension scores/adjudication.
