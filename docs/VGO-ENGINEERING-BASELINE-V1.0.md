@@ -8,7 +8,14 @@ This is the engineering source-of-truth map for VGO shared measurement, diagnosi
 
 VGO Framework owns shared semantic/computational contracts. Omseek and other products may implement workflow, customer assets, optimization and execution, but MUST NOT redefine VGO measurement semantics, mutate Framework evidence, calculate a competing VGO Rank, or bypass certificate state.
 
-Precedence: Rank standard; Diagnosis service/OpenAPI; Measurement protocol; Evidence Ledger; Integrity contract; Framework↔Omseek contract; then existing Rank HTTP/certificate contracts. Older conflicting drafts are superseded.
+Precedence: Rank standard; Diagnosis full implementation specification; Diagnosis OpenAPI; Diagnosis error/event registry; Measurement protocol; Evidence Ledger; Integrity contract; Framework↔Omseek contract; Engineering Work Breakdown/Conformance; then existing Rank HTTP/certificate contracts. Older conflicting drafts are superseded.
+
+Normative implementation documents:
+- VGO-DIAGNOSIS-IMPLEMENTATION-SPEC-V1.0.md
+- diagnosis-openapi-v1.0.yaml
+- DIAGNOSIS-ERROR-EVENT-REGISTRY-V1.0.md
+- ENGINEERING-WORK-BREAKDOWN-V1.0.md
+- CONFORMANCE-AND-ACCEPTANCE-V1.0.md
 
 ## 2. Frozen boundaries
 Framework owns entity/scope semantics, protocols, measurement, evidence lineage, adjudication semantics, Diagnosis, VHI semantics, Rank calculation/signing, certificates, appeals, integrity classifications and conformance tests. Integrators own customer workflow/private data/action planning/execution/UI. Diagnosis is not Rank. Rank never accepts caller-supplied final scores. unrated is never VR0. Website absence does not prevent entity diagnosis/rating; VHI is separate/N/A. Business outcomes validate usefulness but do not enter Rank directly.
