@@ -4,13 +4,13 @@
 
 ## Source of truth and positioning
 
-**Canonical Chinese definition:** 面向机器世界的有效可见度持续增长优化与治理体系。
+**Canonical Chinese definition:** 机器世界可见度增长优化与治理。
 
-**Canonical Chinese core goal:** 让搜索、AI 和社媒更容易发现你、理解你、采信你、推荐你。
+**Canonical Chinese core goal:** 让机器世界发现你、理解你、相信你、推荐你。
 
-**English definition:** A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.
+**English definition:** Visibility Growth Optimization and Governance for the machine-mediated world.
 
-**English core goal:** Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.
+**English core goal:** Help the machine world discover, understand, trust, and recommend your brand.
 
 Keep the one-line definition, core goal, and comparison claim as distinct elements. Social discovery is in the conceptual scope, while V1 observations and the single-scenario public protocol focus primarily on search and generative AI.
 
@@ -78,6 +78,6 @@ Synchronize metadata, machine-readable descriptions, reading copies and download
 
 ## Frozen wording and publication scope — 2026-09-28
 
-The current canonical wording is **VGO：面向机器世界的有效可见度持续增长优化与治理体系。** English expansion: **A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.**
+The current canonical wording is **VGO：机器世界可见度增长优化与治理。** English expansion: **Visibility Growth Optimization and Governance for the machine-mediated world.** Growth and optimization are the primary value path; governance runs throughout the lifecycle.
 
 See [the positioning freeze](VGO-POSITIONING-FREEZE.md). Apply this wording to current website definitions and related documentation; keep repository paths and historical release titles stable. This document update concerns GitHub and website content sources, not server deployment.
