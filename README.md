@@ -1,10 +1,10 @@
 # VGO
 
-> Positioning update (2026-09-28): VGO is a system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world. Effectiveness requires explicit goals, factual accuracy, traceable evidence and evaluable outcomes; it does not guarantee exposure, citations or revenue. Repository identifiers, file paths and historical release names remain stable for citation compatibility.
+> Positioning update (2026-10-01): VGO is **Visibility Growth Optimization and Governance for the machine-mediated world**. Its primary value path is effective visibility growth and optimization; governance runs throughout the lifecycle to keep that growth correct, credible, durable and safe.
 
-**One-line definition: A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.**
+**One-line definition: Visibility Growth Optimization and Governance for the machine-mediated world.**
 
-**Core goal: Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.**
+**Core goal: Help the machine world discover, understand, trust, and recommend your brand.**
 
 **GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
