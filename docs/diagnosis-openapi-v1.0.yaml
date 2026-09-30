@@ -2,68 +2,108 @@ openapi: 3.1.1
 info:
   title: VGO Diagnosis API
   version: 1.0.0
-  description: Frozen wire baseline for Framework-owned VGO Diagnosis. Diagnosis never emits VGO Rank.
+  description: Framework-owned VGO Diagnosis. Diagnosis never emits VGO Rank.
+servers:
+  - url: https://api.vgoframework.org
+security: [{oauth2: []}]
 paths:
   /v1/diagnosis-runs:
     post:
       operationId: createDiagnosisRun
       security: [{oauth2: [diagnostics:run]}]
-      parameters:
-        - in: header
-          name: Idempotency-Key
-          required: true
-          schema: {type: string, minLength: 8, maxLength: 255}
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema: {$ref: '#/components/schemas/CreateDiagnosisRun'}
+      parameters: [{$ref: '#/components/parameters/IdempotencyKey'}]
+      requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/CreateDiagnosisRun'}}}}
       responses:
-        '202':
-          description: Accepted
-          content: {application/json: {schema: {$ref: '#/components/schemas/DiagnosisRun'}}}
+        '202': {$ref: '#/components/responses/RunResponse'}
+        '400': {$ref: '#/components/responses/Error'}
+        '403': {$ref: '#/components/responses/Error'}
         '409': {$ref: '#/components/responses/Error'}
+        '429': {$ref: '#/components/responses/Error'}
   /v1/diagnosis-runs/{run_id}:
     get:
       operationId: getDiagnosisRun
       security: [{oauth2: [diagnostics:read]}]
-      parameters:
-        - {in: path, name: run_id, required: true, schema: {type: string}}
-      responses:
-        '200':
-          description: Run
-          content: {application/json: {schema: {$ref: '#/components/schemas/DiagnosisRun'}}}
-        '404': {$ref: '#/components/responses/Error'}
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {$ref: '#/components/responses/RunResponse'}, '404': {$ref: '#/components/responses/Error'}}
+  /v1/diagnosis-runs/{run_id}/cancel:
+    post:
+      operationId: cancelDiagnosisRun
+      security: [{oauth2: [diagnostics:run]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}, {$ref: '#/components/parameters/IdempotencyKey'}]
+      responses: {'202': {$ref: '#/components/responses/RunResponse'}, '409': {$ref: '#/components/responses/Error'}}
+  /v1/diagnosis-runs/{run_id}/dimensions:
+    get:
+      operationId: listDiagnosisDimensions
+      security: [{oauth2: [diagnostics:read]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Dimensions, content: {application/json: {schema: {type: object, required: [items], properties: {items: {type: array, items: {$ref: '#/components/schemas/DimensionResult'}}}}}}}}
+  /v1/diagnosis-runs/{run_id}/metrics:
+    get:
+      operationId: listDiagnosisMetrics
+      security: [{oauth2: [diagnostics:read]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Metrics, content: {application/json: {schema: {type: object, required: [items], properties: {items: {type: array, items: {$ref: '#/components/schemas/DiagnosticMetric'}}}}}}}}
   /v1/diagnosis-runs/{run_id}/findings:
     get:
       operationId: listDiagnosisFindings
       security: [{oauth2: [diagnostics:read]}]
-      parameters:
-        - {in: path, name: run_id, required: true, schema: {type: string}}
-      responses:
-        '200':
-          description: Findings
-          content:
-            application/json:
-              schema:
-                type: object
-                required: [items]
-                properties: {items: {type: array, items: {$ref: '#/components/schemas/Finding'}}}
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Findings, content: {application/json: {schema: {type: object, required: [items], properties: {items: {type: array, items: {$ref: '#/components/schemas/Finding'}}}}}}}}
+  /v1/diagnosis-runs/{run_id}/recommendations:
+    get:
+      operationId: listDiagnosisRecommendations
+      security: [{oauth2: [diagnostics:read]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Recommendations, content: {application/json: {schema: {type: object, required: [items], properties: {items: {type: array, items: {$ref: '#/components/schemas/Recommendation'}}}}}}}}
+  /v1/diagnosis-runs/{run_id}/evidence-summary:
+    get:
+      operationId: getDiagnosisEvidenceSummary
+      security: [{oauth2: [diagnostics:read]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Evidence summary, content: {application/json: {schema: {$ref: '#/components/schemas/EvidenceSummary'}}}}
+  /v1/diagnosis-runs/{run_id}/retest-diff:
+    get:
+      operationId: getDiagnosisRetestDiff
+      security: [{oauth2: [diagnostics:read]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}]
+      responses: {'200': {description: Retest diff, content: {application/json: {schema: {$ref: '#/components/schemas/RetestDiff'}}}, '409': {$ref: '#/components/responses/Error'}}
+  /v1/diagnosis-runs/{run_id}/verification-requests:
+    post:
+      operationId: createVerificationRequest
+      security: [{oauth2: [diagnostics:run]}]
+      parameters: [{$ref: '#/components/parameters/RunId'}, {$ref: '#/components/parameters/IdempotencyKey'}]
+      requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/VerificationRequest'}}}}
+      responses: {'202': {description: Verification accepted, content: {application/json: {schema: {$ref: '#/components/schemas/VerificationAccepted'}}}}, '409': {$ref: '#/components/responses/Error'}}
+  /v1/protocols/diagnosis/{version}:
+    get:
+      operationId: getDiagnosisProtocolManifest
+      security: [{oauth2: [protocols:read]}]
+      parameters: [{in: path, name: version, required: true, schema: {type: string}}]
+      responses: {'200': {description: Manifest, content: {application/json: {schema: {$ref: '#/components/schemas/ProtocolManifest'}}}}
+  /v1/protocols/measurement/{version}:
+    get:
+      operationId: getMeasurementProtocolManifest
+      security: [{oauth2: [protocols:read]}]
+      parameters: [{in: path, name: version, required: true, schema: {type: string}}]
+      responses: {'200': {description: Manifest, content: {application/json: {schema: {$ref: '#/components/schemas/ProtocolManifest'}}}}
 components:
   securitySchemes:
     oauth2:
       type: oauth2
       flows:
         clientCredentials:
-          tokenUrl: /oauth/token
+          tokenUrl: https://api.vgoframework.org/oauth/token
           scopes:
-            diagnostics:run: Run diagnosis
-            diagnostics:read: Read diagnosis
-            evidence:read: Read authorized evidence
+            diagnostics:run: Run/cancel/verify diagnosis
+            diagnostics:read: Read diagnosis results
+            evidence:read: Read separately authorized raw evidence
+            protocols:read: Read public protocol manifests
+  parameters:
+    RunId: {in: path, name: run_id, required: true, schema: {type: string}}
+    IdempotencyKey: {in: header, name: Idempotency-Key, required: true, schema: {type: string, minLength: 8, maxLength: 255}}
   responses:
-    Error:
-      description: Error
-      content: {application/json: {schema: {$ref: '#/components/schemas/Error'}}}
+    RunResponse: {description: Diagnosis run, content: {application/json: {schema: {$ref: '#/components/schemas/DiagnosisRun'}}}}
+    Error: {description: Error, content: {application/json: {schema: {$ref: '#/components/schemas/Error'}}}}
   schemas:
     CreateDiagnosisRun:
       type: object
@@ -74,10 +114,11 @@ components:
         scope_id: {type: string}
         mode: {type: string, enum: [baseline, retest]}
         baseline_run_id: {type: [string, 'null']}
-        candidate_evidence_ids: {type: array, items: {type: string}}
+        candidate_evidence_ids: {type: array, uniqueItems: true, items: {type: string}}
     DiagnosisRun:
       type: object
-      required: [id, entity_id, scope_id, mode, state, protocol_versions, input_digest]
+      additionalProperties: false
+      required: [id, entity_id, scope_id, mode, state, protocol_versions, input_digest, requested_at, correlation_id]
       properties:
         id: {type: string}
         entity_id: {type: string}
@@ -88,21 +129,117 @@ components:
         baseline_run_id: {type: [string, 'null']}
         evidence_snapshot_id: {type: [string, 'null']}
         input_digest: {type: string}
+        requested_at: {type: string, format: date-time}
+        completed_at: {type: [string, 'null'], format: date-time}
+        correlation_id: {type: string}
         protocol_versions: {type: object, additionalProperties: {type: string}}
+        failure_code: {type: [string, 'null']}
+    DimensionResult:
+      type: object
+      required: [dimension_id, status, evidence_coverage, metric_refs, finding_refs]
+      properties:
+        dimension_id: {type: string}
+        status: {type: string, enum: [supported, unsupported, not_applicable, insufficient_evidence]}
+        summary: {type: string}
+        evidence_coverage: {$ref: '#/components/schemas/Coverage'}
+        confidence: {type: [number, 'null'], minimum: 0, maximum: 1}
+        metric_refs: {type: array, items: {type: string}}
+        finding_refs: {type: array, items: {type: string}}
+    DiagnosticMetric:
+      type: object
+      required: [id, metric_id, status, value, unit, denominator, evidence_coverage, protocol_version]
+      properties:
+        id: {type: string}
+        metric_id: {type: string}
+        status: {type: string, enum: [supported, unsupported, not_applicable, insufficient_evidence]}
+        value: {type: [number, 'null']}
+        unit: {type: string}
+        numerator: {type: [number, 'null']}
+        denominator: {type: [number, 'null']}
+        interval_low: {type: [number, 'null']}
+        interval_high: {type: [number, 'null']}
+        evidence_coverage: {$ref: '#/components/schemas/Coverage'}
+        protocol_version: {type: string}
     Finding:
       type: object
-      required: [id, dimension, severity, code, claim, evidence_refs, contrary_evidence_refs, confidence]
+      required: [id, dimension, severity, status, code, title, claim, evidence_refs, contrary_evidence_refs, confidence, protocol_version]
       properties:
         id: {type: string}
         dimension: {type: string}
         severity: {type: string, enum: [info, low, medium, high, critical]}
+        status: {type: string, enum: [open, resolved, persistent, regressed, informational]}
         code: {type: string}
+        title: {type: string}
         claim: {type: string}
+        rationale: {type: string}
         evidence_refs: {type: array, items: {type: string}}
         contrary_evidence_refs: {type: array, items: {type: string}}
         confidence: {type: number, minimum: 0, maximum: 1}
-        status: {type: string}
         affected_surfaces: {type: array, items: {type: string}}
+        protocol_version: {type: string}
+    Recommendation:
+      type: object
+      required: [id, finding_id, objective, action_class, rationale, expected_verification, constraints, priority_class, human_approval_required]
+      properties:
+        id: {type: string}
+        finding_id: {type: string}
+        objective: {type: string}
+        action_class: {type: string}
+        rationale: {type: string}
+        expected_verification: {type: string}
+        constraints: {type: array, items: {type: string}}
+        priority_class: {type: string, enum: [P0, P1, P2, P3]}
+        human_approval_required: {type: boolean}
+    Coverage:
+      type: object
+      required: [numerator, denominator]
+      properties:
+        numerator: {type: integer, minimum: 0}
+        denominator: {type: integer, minimum: 0}
+    EvidenceSummary:
+      type: object
+      required: [snapshot_id, digest, cutoff, total_evidence, provenance_families, conflicts]
+      properties:
+        snapshot_id: {type: string}
+        digest: {type: string}
+        cutoff: {type: string, format: date-time}
+        total_evidence: {type: integer, minimum: 0}
+        provenance_families: {type: integer, minimum: 0}
+        conflicts: {type: integer, minimum: 0}
+    RetestDiff:
+      type: object
+      required: [run_id, baseline_run_id, resolved, persistent, regressed, new_findings, incomparable]
+      properties:
+        run_id: {type: string}
+        baseline_run_id: {type: string}
+        resolved: {type: array, items: {type: string}}
+        persistent: {type: array, items: {type: string}}
+        regressed: {type: array, items: {type: string}}
+        new_findings: {type: array, items: {type: string}}
+        incomparable: {type: array, items: {type: object, properties: {subject_id: {type: string}, reason: {type: string}}}}
+    VerificationRequest:
+      type: object
+      additionalProperties: false
+      required: [action_refs]
+      properties:
+        action_refs: {type: array, minItems: 1, uniqueItems: true, items: {type: string}}
+        execution_evidence_refs: {type: array, uniqueItems: true, items: {type: string}}
+    VerificationAccepted:
+      type: object
+      required: [verification_id, retest_run_id]
+      properties:
+        verification_id: {type: string}
+        retest_run_id: {type: string}
+    ProtocolManifest:
+      type: object
+      required: [protocol, version, status, published_at, public_digest]
+      properties:
+        protocol: {type: string}
+        version: {type: string}
+        status: {type: string}
+        published_at: {type: string, format: date-time}
+        public_digest: {type: string}
+        protected_manifest_digest: {type: [string, 'null']}
     Error:
       type: object
       required: [code, message, retryable, request_id]
@@ -111,4 +248,4 @@ components:
         message: {type: string}
         retryable: {type: boolean}
         request_id: {type: string}
-        details: {type: object}
+        details: {type: object, additionalProperties: true}
