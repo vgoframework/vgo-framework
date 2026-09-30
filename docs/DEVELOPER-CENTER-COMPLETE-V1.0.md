@@ -11,7 +11,7 @@
 | 层级 | 能力 | 凭证 | 上线策略 |
 |---|---|---|---|
 | L0 | 标准、方法、版本、状态、概念、OpenAPI 文件 | 公开 | 标准页可先发布 |
-| L1 | 证书/现态、验签、已批准榜单与动态徽章 | 匿名或只读身份 | Framework 正式签发与法务发布门槛通过后开放真实数据 |
+| L1 | 证书/现态、验签、已批准榜单与动态徽章 | 匿名或只读身份 | **Formal Rank Issuance Authorized**（F08 + 治理 `provisional→rated`）与法务发布门槛通过后开放正式徽章与榜单；技术签发态下仅允许 **provisional 试验条**（见 AD-VGO-018），不得冒充正式动态徽章 |
 | L2 | 隔离沙箱、模拟任务与样本证书 | 沙箱 client/key | 沙箱、向量和安全测试通过后开放，显著标明不能作为正式评级 |
 | L3 | 经授权的实体、作用域、诊断、行动/复测 | OAuth2 + 客户授权 | 审核主体分批接入，私有证据受最小权限保护 |
 | L4 | 正式评级申请、事件订阅、伙伴规模集成 | OAuth2 + 资格/配额 | 评级服务和治理门槛通过后分批开放；付费不改变正式资格和采样 |
@@ -34,7 +34,7 @@
 
 ## 3. 资源、协议与 OpenAPI
 
-HTTP 基地址规划为 `https://api.vgoframework.org/v1`，沙箱 `https://sandbox-api.vgoframework.org/v1`；均在域名真实部署后才公开为可用。OpenAPI 3.1.1 按能力域维护两个权威源：共享注册/Rank/证书域为 `docs/rank-openapi-v1.0.yaml`；Diagnosis 域为 `docs/diagnosis-openapi-v1.0.yaml`。二者共享同一 `/v1` 服务、OAuth issuer、entity/scope 标识、错误 envelope、幂等与 webhook 平台约定；不得复制定义出第三套 schema。官网从固定 Framework commit/hash 同时导入并生成统一开发者视图。资源包含 protocols、entities、scopes、diagnosis-runs、rating-requests、certificates/current/status/verify、rankings、appeals、subscriptions 和 JWK；动作与响应详见各域契约。公开证书验证只接受证书 ID 或 JWS，不对用户 URL 发起抓取。榜单只含合格公开列名实体、同市场同语言同问题空间同协议，默认 20、最多 100、游标分页；样本队列不足 30 不显示分位。
+HTTP 基地址规划为 `https://api.vgoframework.org/v1`，沙箱 `https://sandbox-api.vgoframework.org/v1`；均在域名真实部署后才公开为可用。OpenAPI 3.1.1 按能力域维护两个权威源：共享注册/Rank/证书域为 `docs/rank-openapi-v1.0.yaml`；Diagnosis 域为 `docs/diagnosis-openapi-v1.0.yaml`（**双 OpenAPI 不变**）。二者共享同一 `/v1` 服务、OAuth issuer、entity/scope 标识、错误 envelope、幂等与 webhook 平台约定；不得复制定义出第三套 schema。技术签发与正式授权分门：见 [AD-VGO-018-TECHNICAL-VS-FORMAL-ISSUANCE.md](AD-VGO-018-TECHNICAL-VS-FORMAL-ISSUANCE.md)。官网从固定 Framework commit/hash 同时导入并生成统一开发者视图。资源包含 protocols、entities、scopes、diagnosis-runs、rating-requests、certificates/current/status/verify、rankings、appeals、subscriptions 和 JWK；动作与响应详见各域契约。公开证书验证只接受证书 ID 或 JWS，不对用户 URL 发起抓取。榜单只含合格公开列名实体、同市场同语言同问题空间同协议，默认 20、最多 100、游标分页；样本队列不足 30 不显示分位。
 
 `GET /certificates/{id}` 返回历史签发 JWS；`GET /certificates/{id}/status` 是当前状态；`POST /certificates/verify` 组合签名/时间/作用域/现态验证；`GET /rankings` 是受发布开关控制的公开榜单。请求评级返回 202 job ID，`completed` 不等于 `certificate.issued`。无评级返回明确 `unrated` 原因，VR0 仅代表合格观测后的 0 级。所有当前有效展示同时检查原始签名和不超过 30 秒的现态；传播限制/撤销到官网、API、动态徽章上限 60 秒。历史 JWS 不回写。
 
@@ -66,7 +66,7 @@ SDK 分层发布：OpenAPI/sandbox/签名向量与运行契约通过后优先 Ty
 |---|---|---|---|
 | A 标准门户 | 双语标准、契约、状态 planned、治理/纠错说明 | 生产 API/证书/榜单已开放 | 内容 hash 与标准版本一致、旧址及无假按钮验证 |
 | B 沙箱 | L2、测试向量、TS SDK 只读核验 | 沙箱为正式评级 | 沙箱和生产隔离、端到端 quickstart、速率/权限测试 |
-| C 正式只读 | 证书、现态、验证、已批准榜单 | 所有私有接口普遍开放 | Framework F08、法务、证书撤销 60 秒、官网/SDK 联测 |
+| C 正式只读 | 证书、现态、验证、已批准榜单 | 所有私有接口普遍开放 | **Formal Authorized**（F08 未取消）、法务、证书撤销 60 秒、官网/SDK 联测；Status 3 仅 provisional + 试验条 |
 | D 授权扩展 | L3/L4 经审核主体和逐项授权 | Omseek 客户优待或付费提级 | 合约、隔离、申诉、配额、计费与合作伙伴用例验收 |
 
 发布审计逐项记录：Framework 服务版本、OpenAPI SHA、市场协议/校准报告、真实运营主体和利益关联、KMS/JWK/轮换、撤销演练、法律审查、网站内容 hash、SDK 版本、示例运行日志和回滚方案。缺一项则只关闭相应能力，不将 planned 偷换 production。运营后台显示入口与任务状态、证据质量、签发双人审批、申诉 SLA、事件死信、密钥状态、API 速率和错误趋势；它是 L5 内部工具，不作为公共开发者门户。
