@@ -17,6 +17,8 @@ VGO begins with real people and high-value intent rather than platforms or raw e
 > **Human First. Intent First. Effectiveness First.**
 >
 > **North Star: Grow More Effective Visibility.**
+>
+> **Growth loop:** Opportunity → Optimize → Grow Effective Visibility → Verify → Learn → Next Opportunity. The execution loop underneath remains Diagnose → Decide → Act → Verify → Learn.
 
 VGO is not against growth in visibility. It distinguishes raw visibility from visibility that matters.
 
