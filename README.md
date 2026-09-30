@@ -10,7 +10,7 @@
 
 VGO (Visibility Growth Optimization) is an open **growth and optimization system** for growing effective visibility across search, direct answers, generative AI, agents, and emerging discovery surfaces. It encompasses GEO's focus on generative AI and connects SEO and AEO. Starting with real user intent and verifiable organizational facts, VGO guides diagnosis, prioritization, action, verification, and continuous learning. It supports automation where appropriate and builds durable assets organizations can own and maintain.
 
-**In practice:** Diagnose → Decide → Act → Verify → Learn. The public system defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
+**Growth loop:** Opportunity → Optimize → Grow Effective Visibility → Verify → Learn → Next Opportunity. **Execution loop:** Diagnose → Decide → Act → Verify → Learn. The public system defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
 
 ![Status: V1.0 published methodology](https://img.shields.io/badge/status-V1.0%20published%20methodology-blue)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)
