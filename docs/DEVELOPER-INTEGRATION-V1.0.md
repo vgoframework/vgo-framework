@@ -25,3 +25,7 @@
 TypeScript `@vgoframework/rank`、Python `vgo-rank` 只从冻结的 OpenAPI 生成基础类型，再手写安全 verifier、任务等待器、分页、幂等和 webhook 验证器。两者必须暴露 baseURL、timeout、abort/cancel、持久化 idempotency key、结构化错误和证书当前态验证；默认拒绝未知 enum、错误 issuer、签名失败、过期与状态服务不可用。生成物标记 OpenAPI SHA-256 和协议兼容范围。发布前 CI 在同一沙箱 fixture 上覆盖品牌/产品、无网站、样本不足、VR0、签发、watch、restricted、revoked、密钥轮换、重复事件与申诉。
 
 官网 `/developers/api` 公布 API 版本、状态（planned/sandbox/public）、OpenAPI 下载及运行样例；`/developers/sdk` 仅在 SDK 真正发布后展示可执行安装命令。正式证书徽章与商标使用须遵守单独的商标许可，公开标准 CC BY 不自动授予认证标志使用权。法律/数据处理协议、OAuth client 申请入口、支持和版本公告在生产开放前补齐实值并测试，不得放占位链接。
+
+
+## Diagnosis v1 contract alignment (2026-10-01)
+Authorized Diagnosis uses `docs/diagnosis-openapi-v1.0.yaml` for run/result operations and `docs/VGO-DIAGNOSIS-IMPLEMENTATION-SPEC-V1.0.md` for runtime semantics. Integrators use `diagnostics:run` for create/cancel/verification and `diagnostics:read` for private results; `evidence:read` is separately authorized. Shared entity/scope creation remains defined by the Rank/shared OpenAPI. Diagnosis webhooks use the same HMAC-SHA256 delivery platform and event_id dedupe rules; Diagnosis event envelope uses `type/created_at/aggregate_id`, while legacy Rank event payload retains `event_type/occurred_at/resource_id/status_version`. SDKs MUST model these as versioned event unions rather than assuming identical payload fields.
