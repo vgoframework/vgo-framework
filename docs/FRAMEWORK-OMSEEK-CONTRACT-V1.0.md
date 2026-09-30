@@ -1,7 +1,7 @@
 # VGO Framework ↔ Omseek Contract v1.0
 **Status: FROZEN BOUNDARY — 2026-10-01**
 
-Framework is authority for VGO semantics, measurement, shared evidence semantics, Diagnosis, VHI semantics, Rank/certificates. Omseek is a VGO implementation and commercial governance/execution platform owning customer workflow, private truth/assets, planning, optimization execution, publishing integrations, monitoring UX and commercial data.
+Framework is authority for VGO semantics, measurement, shared evidence semantics, Diagnosis, VHI semantics, Rank/certificates. Omseek is a VGO implementation and commercial **effective-visibility growth and optimization platform** owning customer workflow, private truth/assets, opportunity planning, optimization execution, publishing integrations, monitoring/verification UX, governance workflow and commercial data.
 
 Omseek→Framework: entity/scope candidates, authorized canonical facts, asset/source references, diagnosis/retest/rating requests, appeals/corrections. Framework→Omseek: IDs, measurement status, authorized evidence summaries, diagnostic metrics/findings/recommendations, integrity states, retest diffs, rating status and signed certificate/status.
 

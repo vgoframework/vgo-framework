@@ -8,7 +8,7 @@
 
 GEO addresses generative-system understanding, mentions, citations, comparisons and recommendations. VGO encompasses those capabilities and connects them with SEO, AEO, owned assets, verifiable facts, intent relevance, integrity, action and longitudinal learning. SEO, AEO and GEO overlap in real observations; they are not disjoint channels or mandatory sequential stages.
 
-VGO is an **optimization system**, not a metrics-only system or an installable GEO toolkit. It guides diagnosis, prioritization, action, verification and learning. Omseek develops a separate product implementation; proprietary implementation features and scores are not universal requirements of the open system.
+VGO is a **growth and optimization system**, not a metrics-only system or an installable GEO toolkit. Its primary value path is to grow effective visibility through diagnosis, prioritization and action; verification and governance keep that growth evidence-led, credible and durable. Omseek develops a separate product implementation; proprietary implementation features and scores are not universal requirements of the open system.
 
 ## GEO capabilities inside VGO
 

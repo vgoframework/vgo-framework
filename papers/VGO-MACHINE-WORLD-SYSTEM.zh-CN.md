@@ -1,6 +1,6 @@
-# VGO：面向机器世界的有效可见度持续增长优化与治理体系
+# VGO：机器世界可见度增长优化与治理
 
-**英文题名：** VGO: A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world  
+**英文题名：** VGO: Visibility Growth Optimization and Governance for the Machine-Mediated World  
 **文稿类型：** 方法论与系统设计论文初稿  
 **版本：** 0.1 · 2026 年 9 月 28 日  
 **署名：** 待作者确认  
@@ -8,13 +8,13 @@
 
 ## 摘要
 
-搜索引擎、直接答案服务、生成式回答系统与智能体正在成为组织信息被发现、解释和选择的重要中介。面向这些入口开展优化时，单独观察排名、提及或引用，难以回答三个连续问题：组织应优先改善什么、实际改变了什么，以及这些变化能够支持何种效果结论。本文提出 VGO（Visibility Growth Optimization），即面向机器世界的有效可见度持续增长优化与治理体系。该体系以用户意图和可验证的组织事实为基础，连接机会发现、资产建设、优化执行、效果验证与持续学习，并通过范围快照、证据谱系及变更记录保持结果可追溯。本文将“有效”定义为目标相关、事实正确、证据可核查且结果可评估，而非曝光或收入必然增加；将可见度观测、业务关联与因果增量分层处理。本文进一步提出观测指标、执行约束、云端与独立部署协同原则，以及可复现的实验设计。本文的贡献是一个可操作、可审查的体系提案；其相对于单独监测或非结构化优化流程的实际收益仍需实验检验。
+搜索引擎、直接答案服务、生成式回答系统与智能体正在成为组织信息被发现、解释和选择的重要中介。面向这些入口开展优化时，单独观察排名、提及或引用，难以回答三个连续问题：组织应优先改善什么、实际改变了什么，以及这些变化能够支持何种效果结论。本文提出 VGO（Visibility Growth Optimization），即**机器世界可见度增长优化与治理**。增长与优化构成第一价值主线；治理贯穿全过程，使增长保持正确、可信、持续并受风险约束。该体系以用户意图和可验证的组织事实为基础，连接机会发现、资产建设、优化执行、效果验证与持续学习，并通过范围快照、证据谱系及变更记录保持结果可追溯。本文将“有效”定义为目标相关、事实正确、证据可核查且结果可评估，而非曝光或收入必然增加；将可见度观测、业务关联与因果增量分层处理。本文进一步提出观测指标、执行约束、云端与独立部署协同原则，以及可复现的实验设计。本文的贡献是一个可操作、可审查的体系提案；其相对于单独监测或非结构化优化流程的实际收益仍需实验检验。
 
 **关键词：** VGO；可见度有效增长；生成式引擎优化；搜索引擎优化；答案引擎优化；证据谱系；机器中介；效果评估
 
 ## Abstract
 
-Search engines, direct-answer interfaces, generative systems and agents mediate how organizations are discovered, represented and selected. Rankings, mentions and citations alone do not explain which interventions deserve priority, what was actually changed, or which outcome claims the evidence supports. This paper proposes Visibility Growth Optimization (VGO), a system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world. Grounded in user intent and verifiable organizational facts, VGO connects opportunity discovery, asset maintenance, authorized intervention, verification and continuous learning. Scope snapshots, evidence lineage and change records support reviewable conclusions. Effectiveness is defined through relevance to explicit goals, factual correctness, traceable evidence and evaluable outcomes, rather than guaranteed exposure or revenue. The paper separates visibility observations, associated business outcomes and causal effects; specifies measurement and execution requirements; and presents a reproducible evaluation design. This is a methodological and system-design proposal without empirical effectiveness results. Its incremental value remains to be tested.
+Search engines, direct-answer interfaces, generative systems and agents mediate how organizations are discovered, represented and selected. Rankings, mentions and citations alone do not explain which interventions deserve priority, what was actually changed, or which outcome claims the evidence supports. This paper proposes Visibility Growth Optimization (VGO): visibility growth optimization and governance for the machine-mediated world. Growth and optimization form the primary value path, while governance runs throughout the lifecycle to keep growth correct, credible, durable and appropriately constrained. Grounded in user intent and verifiable organizational facts, VGO connects opportunity discovery, asset maintenance, authorized intervention, verification and continuous learning. Scope snapshots, evidence lineage and change records support reviewable conclusions. Effectiveness is defined through relevance to explicit goals, factual correctness, traceable evidence and evaluable outcomes, rather than guaranteed exposure or revenue. The paper separates visibility observations, associated business outcomes and causal effects; specifies measurement and execution requirements; and presents a reproducible evaluation design. This is a methodological and system-design proposal without empirical effectiveness results. Its incremental value remains to be tested.
 
 ## 1. 引言
 
@@ -218,7 +218,7 @@ RQ4：双入口管理能否保持修订、权限、回执及证据一致，并�
 
 ## 11. 结论
 
-本文将 VGO 定义为面向机器世界的有效可见度持续增长优化与治理体系，以用户意图、可信事实和可维护资产为起点，连接机会、行动、验证及学习。其核心要求是让优化过程和效果主张都具有可审查依据，并清楚区分抽样可见度、业务关联和因果增量。
+本文将 VGO 定义为**机器世界可见度增长优化与治理**，以增长有效可见度为第一目标，以用户意图、可信事实和可维护资产为起点，连接机会、优化行动、验证、治理及学习。其核心要求是让优化过程和效果主张都具有可审查依据，并清楚区分抽样可见度、业务关联和因果增量。
 
 本文完成的是体系定义与研究设计。下一阶段应执行预注册试点，验证证据链与流程可靠性，再通过适当比较检验准确性、效率和业务效果。支持、不支持与无法判断的结果都应成为体系修订的依据。
 

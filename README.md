@@ -1,16 +1,16 @@
 # VGO
 
-> Positioning update (2026-09-28): VGO is a system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world. Effectiveness requires explicit goals, factual accuracy, traceable evidence and evaluable outcomes; it does not guarantee exposure, citations or revenue. Repository identifiers, file paths and historical release names remain stable for citation compatibility.
+> Positioning update (2026-10-01): VGO is **Visibility Growth Optimization and Governance for the machine-mediated world**. Its primary value path is effective visibility growth and optimization; governance runs throughout the lifecycle to keep that growth correct, credible, durable and safe.
 
-**One-line definition: A system for the optimization and governance of sustained growth in effective visibility in the machine-mediated world.**
+**One-line definition: Visibility Growth Optimization and Governance for the machine-mediated world.**
 
-**Core goal: Help search, AI, and social platforms discover, understand, trust the evidence about, and recommend your brand.**
+**Core goal: Help the machine world discover, understand, trust, and recommend your brand.**
 
 **GEO focuses on how a brand appears in generative AI answers. VGO optimizes effective visibility growth outcomes across the wider machine-mediated world.**
 
-VGO (Visibility Growth Optimization) is an open **optimization system** for growing effective visibility across search, direct answers, generative AI, agents, and emerging discovery surfaces. It encompasses GEO's focus on generative AI and connects SEO and AEO. Starting with real user intent and verifiable organizational facts, VGO guides diagnosis, prioritization, action, verification, and continuous learning. It supports automation where appropriate and builds durable assets organizations can own and maintain.
+VGO (Visibility Growth Optimization) is an open **growth and optimization system** for growing effective visibility across search, direct answers, generative AI, agents, and emerging discovery surfaces. It encompasses GEO's focus on generative AI and connects SEO and AEO. Starting with real user intent and verifiable organizational facts, VGO guides diagnosis, prioritization, action, verification, and continuous learning. It supports automation where appropriate and builds durable assets organizations can own and maintain.
 
-**In practice:** Diagnose → Decide → Act → Verify → Learn. The public system defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
+**Growth loop:** Opportunity → Optimize → Grow Effective Visibility → Verify → Learn → Next Opportunity. **Execution loop:** Diagnose → Decide → Act → Verify → Learn. The public system defines actions, evidence requirements, and automation boundaries; Omseek develops a separate product implementation. This repository is methodology and guidance, not an installable AI assistant or workflow engine.
 
 ![Status: V1.0 published methodology](https://img.shields.io/badge/status-V1.0%20published%20methodology-blue)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](LICENSE)

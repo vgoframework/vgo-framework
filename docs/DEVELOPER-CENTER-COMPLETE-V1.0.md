@@ -1,6 +1,6 @@
 # VGO Framework 开发者中心与开放平台完整方案 v1.0
 
-**决策状态：开发契约冻结；开放状态由实际部署和验收决定。** 日期：2026-09-29。标准权威：[VGO Rank v1.0](VGO-RANK-STANDARD-V1.0.md)；HTTP 权威：[OpenAPI 3.1.1](rank-openapi-v1.0.yaml)；签发与验证：[证书规范](RANK-CERTIFICATE-AND-TRUST-V1.0.md)；服务：[架构与任务](RANK-SERVICE-ARCHITECTURE-V1.0.md)。本文件是开发者中心的产品、信息架构、接入和发布完整契约。Omseek 开放平台另属 Omseek：它提供客户工作流和治理执行，而 Framework 提供公用标准、正式评测和可验证证书。
+**决策状态：开发契约冻结；开放状态由实际部署和验收决定。** 日期：2026-09-29。标准权威：[VGO Rank v1.0](VGO-RANK-STANDARD-V1.0.md)；HTTP 权威：[OpenAPI 3.1.1](rank-openapi-v1.0.yaml)；签发与验证：[证书规范](RANK-CERTIFICATE-AND-TRUST-V1.0.md)；服务：[架构与任务](RANK-SERVICE-ARCHITECTURE-V1.0.md)。本文件是开发者中心的产品、信息架构、接入和发布完整契约。Omseek 开放平台另属 Omseek：它面向客户提供有效可见度增长与优化工作流，并贯通执行、验证和治理；Framework 提供公用标准、正式评测和可验证证书。
 
 ## 1. 用户与产品边界
 
