@@ -1,6 +1,9 @@
 # VGO Diagnosis v1.0 — Error, Event & Compatibility Registry
 **Status: FROZEN — 2026-10-01**
 
+## Shared platform mapping
+The Rank OpenAPI legacy/common codes remain valid for shared resources: `INVALID_INPUT` maps to Diagnosis `INVALID_REQUEST`; `NOT_FOUND` may be returned by shared entity/scope endpoints while Diagnosis-domain endpoints use resource-specific *_NOT_FOUND codes; `IDEMPOTENCY_CONFLICT` maps to `IDEMPOTENCY_KEY_REUSED`; `INELIGIBLE_SCOPE` maps to `INVALID_SCOPE`. SDKs MUST preserve the wire code received and MAY expose a normalized error family. New Diagnosis endpoints use the codes below. This avoids silently reinterpreting already-published Rank clients.
+
 ## Error registry
 | Code | HTTP | Retry | Meaning |
 |---|---:|---|---|
