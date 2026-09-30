@@ -36,7 +36,7 @@ Webhooks 采用 at-least-once，事件 ID 去重、签名、时间窗和重放�
 
 ## 四、鉴权、版本与错误
 
-生产授权使用 OAuth2 client credentials（服务端到服务端）、按 `entities:write / diagnostics:run / ratings:request / evidence:read / appeals:write / subscriptions:write` 的 scope；公开读取匿名。凭证按 partner、environment、subject 和最大作用域约束；Omseek 与外部开发者同一 contract，不共享客户 secret。用户代表访问须附客户授权、tenant 映射与过期撤销；前端不持有客户端密钥。申请、申诉和订阅写入使用 `Idempotency-Key`（有效 24 小时），相同 key 不同 body 返回 409；响应含 `request_id` 和稳定错误 `code/message/details/retryable`。429 附 Retry-After，5xx 可安全重试，所有分页稳定 cursor。
+生产授权使用 OAuth2 client credentials（服务端到服务端）。共享 scope 注册表为 `entities:write / diagnostics:run / diagnostics:read / evidence:read / protocols:read / ratings:request / appeals:write / subscriptions:write`；公开读取匿名。凭证按 partner、environment、subject 和最大作用域约束；Omseek 与外部开发者同一 contract，不共享客户 secret。用户代表访问须附客户授权、tenant 映射与过期撤销；前端不持有客户端密钥。申请、申诉和订阅写入使用 `Idempotency-Key`（有效 24 小时），相同 key 不同 body 返回 409；响应含 `request_id` 和稳定错误 `code/message/details/retryable`。429 附 Retry-After，5xx 可安全重试，所有分页稳定 cursor。
 
 `/v1` 主版本稳定；新增可选字段为兼容变更，删除/重释字段或收紧输入须 `/v2`、迁移窗、契约差异报告。Rank 协议版本与 HTTP 版本相互独立。服务不满足外部接入准备时不发布 SDK 为“可用”。原始证据访问默认私有；公开摘要保留证据类型、数量、覆盖和哈希，不泄露保密题库、个人数据或无授权版权内容。
 

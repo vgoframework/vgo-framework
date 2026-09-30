@@ -34,7 +34,7 @@
 
 ## 3. 资源、协议与 OpenAPI
 
-HTTP 基地址规划为 `https://api.vgoframework.org/v1`，沙箱 `https://sandbox-api.vgoframework.org/v1`；均在域名真实部署后才公开为可用。OpenAPI 3.1.1 的单一源文件为 `docs/rank-openapi-v1.0.yaml`；网站从固定 Framework commit/hash 导入，禁止维护分叉的 API schema。资源包含 protocols、entities、scopes、diagnostic-runs、rating-requests、certificates/current/status/verify、rankings、appeals、subscriptions 和 JWK；动作与响应详见契约。公开证书验证只接受证书 ID 或 JWS，不对用户 URL 发起抓取。榜单只含合格公开列名实体、同市场同语言同问题空间同协议，默认 20、最多 100、游标分页；样本队列不足 30 不显示分位。
+HTTP 基地址规划为 `https://api.vgoframework.org/v1`，沙箱 `https://sandbox-api.vgoframework.org/v1`；均在域名真实部署后才公开为可用。OpenAPI 3.1.1 按能力域维护两个权威源：共享注册/Rank/证书域为 `docs/rank-openapi-v1.0.yaml`；Diagnosis 域为 `docs/diagnosis-openapi-v1.0.yaml`。二者共享同一 `/v1` 服务、OAuth issuer、entity/scope 标识、错误 envelope、幂等与 webhook 平台约定；不得复制定义出第三套 schema。官网从固定 Framework commit/hash 同时导入并生成统一开发者视图。资源包含 protocols、entities、scopes、diagnosis-runs、rating-requests、certificates/current/status/verify、rankings、appeals、subscriptions 和 JWK；动作与响应详见各域契约。公开证书验证只接受证书 ID 或 JWS，不对用户 URL 发起抓取。榜单只含合格公开列名实体、同市场同语言同问题空间同协议，默认 20、最多 100、游标分页；样本队列不足 30 不显示分位。
 
 `GET /certificates/{id}` 返回历史签发 JWS；`GET /certificates/{id}/status` 是当前状态；`POST /certificates/verify` 组合签名/时间/作用域/现态验证；`GET /rankings` 是受发布开关控制的公开榜单。请求评级返回 202 job ID，`completed` 不等于 `certificate.issued`。无评级返回明确 `unrated` 原因，VR0 仅代表合格观测后的 0 级。所有当前有效展示同时检查原始签名和不超过 30 秒的现态；传播限制/撤销到官网、API、动态徽章上限 60 秒。历史 JWS 不回写。
 
