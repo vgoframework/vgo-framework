@@ -4,7 +4,7 @@ Method note within VGO V1.0; not a new system version or certification.
 
 GEO 2.0 is our methodology and capability approach for GEO within the VGO. In generative AI contexts, it connects customer decision scenarios, verified brand facts and traceable evidence with diagnosis, prioritized action, execution, ongoing verification and maintenance. Its goal is to help brands be accurately understood, credibly cited, fairly compared and appropriately recommended in relevant contexts.
 
-VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+VGO is the overarching open methodology, covering SEO, AEO, GEO, SMO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
 
 GEO is the general term for Generative Engine Optimization. Here, GEO 2.0 refers specifically to our approach within VGO, rather than an industry-wide version standard. Other GEO practices may also address facts, evidence and long-term outcomes. Effective GEO describes the intended outcome; GEO 2.0 describes the method for pursuing and maintaining it. The name is not a VGO version number.
 

@@ -1,4 +1,4 @@
-# SEO, AEO, GEO and VGO
+# SEO, AEO, GEO, SMO and VGO
 
 **Status:** Part of VGO V1.0 published methodology. The [v1.0.0-draft](https://github.com/vgoframework/vgo-framework/releases/tag/v1.0.0-draft) tag remains a historical snapshot; the public evaluation protocol is separately marked Draft 0.1.
 
@@ -6,9 +6,11 @@
 
 ## Scope and relationship
 
-GEO addresses generative-system understanding, mentions, citations, comparisons and recommendations. VGO encompasses those capabilities and connects them with SEO, AEO, owned assets, verifiable facts, intent relevance, integrity, action and longitudinal learning. SEO, AEO and GEO overlap in real observations; they are not disjoint channels or mandatory sequential stages.
+GEO addresses generative-system understanding, mentions, citations, comparisons and recommendations. VGO encompasses those capabilities and connects them with SEO, AEO, SMO, owned assets, verifiable facts, intent relevance, integrity, action and longitudinal learning. SEO, AEO, GEO and SMO overlap in real observations; they are not disjoint channels or mandatory sequential stages.
 
 VGO is a **growth and optimization system**, not a metrics-only system or an installable GEO toolkit. Its primary value path is to grow effective visibility through diagnosis, prioritization and action; verification and governance keep that growth evidence-led, credible and durable. Omseek develops a separate product implementation; proprietary implementation features and scores are not universal requirements of the open system.
+
+SMO (Social Media Optimization) covers social discovery, sharing and accurate representation under the same relevance, fact, evidence and governance requirements. Social exposure and engagement are intermediate signals; they do not alone prove effective visibility or business outcomes. Emerging-channel visibility remains open to new machine-mediated discovery interfaces. These capability lenses overlap and are not scores to add or a mandatory sequence.
 
 ## GEO capabilities inside VGO
 
@@ -24,7 +26,7 @@ VGO is a **growth and optimization system**, not a metrics-only system or an ins
 
 | Layer | VGO action and evidence |
 |---|---|
-| **Coverage** | Coordinate GEO with SEO, AEO, search, direct answers, agents and emerging discovery surfaces; avoid double-counting overlapping answers. |
+| **Coverage** | Coordinate GEO with SEO, AEO, SMO, search, direct answers, social discovery, agents and emerging discovery surfaces; avoid double-counting overlapping answers. |
 | **Effectiveness** | Evaluate audience and intent fit, factual accuracy, credible evidence, integrity and observed decision relevance rather than counting each mention as value. |
 | **Ownership** | Build maintainable, machine-readable first-party assets and organization-controlled facts and evidence; use credible third-party sources for distribution and independent corroboration. |
 | **Compounding** | Diagnose, decide, act, verify and learn across time; keep reusable content, facts, evidence, data and decision records under organizational control. |
@@ -51,7 +53,7 @@ Rank, answer inclusion, mentions, citations and recommendations are intermediate
 
 ## GEO 2.0: a method within the GEO capability
 
-VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+VGO is the overarching open methodology, covering SEO, AEO, GEO, SMO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
 
 GEO is the general term for Generative Engine Optimization. Here, GEO 2.0 refers specifically to our approach within VGO, rather than an industry-wide version standard. Other GEO practices may also address facts, evidence and long-term outcomes. Effective GEO describes the intended outcome; GEO 2.0 describes the method for pursuing and maintaining it. The name is not a VGO version number.
 

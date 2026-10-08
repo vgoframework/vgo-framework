@@ -20,7 +20,9 @@ Use the same claims in English and Chinese. Link current pages to the current sy
 
 **中文主张：**GEO 关注品牌在生成式 AI 答案中的表现；VGO 优化品牌在整个机器世界的有效可见度增长结果。
 
-**Expanded English description:** VGO is an open optimization system for effective visibility growth across search, direct answers, generative AI, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
+**Expanded English description:** VGO is an open optimization system for effective visibility growth across search, direct answers, generative AI, social discovery, agents and emerging discovery surfaces. It guides diagnosis, decisions, action, verification and learning from real user intent and verifiable organizational facts, while supporting appropriate automation and durable, organization-owned assets.
+
+**范围说明：**机器世界可见度总体覆盖 SEO、AEO、GEO、SMO 及新兴渠道可见度。SMO（Social Media Optimization，社交媒体优化）关注社交发现、分享和准确呈现；曝光、点赞、分享量不能单独证明有效可见度或商业结果。能力视角可以交叉，不能解释为固定加权分数、强制顺序或所有平台均已接入。
 
 **中文展开说明：**VGO 是面向整个机器世界的有效可见度增长开放行动体系，从真实用户意图和可验证的品牌事实出发，指导诊断、决策、执行、验证和学习，在适合的环节推进自动化，并沉淀品牌可长期持有的增长资产。
 
@@ -29,7 +31,7 @@ Use the same claims in English and Chinese. Link current pages to the current sy
 Retain the existing page structure and visual identity. Place the lead comparison and action identity close to the top rather than replacing the whole homepage.
 
 - Suggested heading: **Grow Effective Visibility Across the Machine-Mediated World**.
-- Suggested subheading: **An open optimization system that connects SEO, AEO and GEO to diagnose gaps, guide execution, verify results and build durable assets organizations can own.**
+- Suggested subheading: **An open optimization system that connects SEO, AEO, GEO and SMO to diagnose gaps, guide execution, verify results and build durable assets organizations can own.**
 - Show **Diagnose · Decide · Act · Verify · Learn** as a short linked route to the methodology page.
 - State plainly: **VGO publishes methods and guidance; Omseek develops a separate software implementation.**
 - Do not label the repository an AI assistant, installable automation engine, private metrics platform, or guaranteed growth product.
@@ -68,9 +70,9 @@ Answer these questions directly:
 
 ## GEO 2.0 naming alignment
 
-VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+VGO is the overarching open methodology, covering SEO, AEO, GEO, SMO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
 
-VGO 是上层开放方法论，覆盖 SEO、AEO、GEO 及智能体等新兴发现入口。GEO 2.0 是其中 GEO 方法与能力的名称，不等于整个 VGO，也不改变 VGO 的定义和层级。Omseek 是基于 VGO 的产品实现。
+VGO 是上层开放方法论，覆盖 SEO、AEO、GEO、SMO 及智能体等新兴渠道的可见度。GEO 2.0 是其中 GEO 方法与能力的名称，不等于整个 VGO，也不改变 VGO 的定义和层级。Omseek 是基于 VGO 的产品实现。
 
 Keep the VGO definition and open-methodology identity. Add a GEO 2.0 method page, homepage capability link, glossary entry and FAQ in both languages. Preserve Effective GEO as the outcome definition. Explain the five upgrades only in generative AI scenarios and retain the broader VGO capability diagram. Do not rename internal enums, APIs or storage contracts.
 

@@ -10,7 +10,7 @@
 
 **Core goal: Help the machine world discover, understand, trust, and recommend your brand.** These are intended outcomes, not guaranteed platform behavior. Growth and optimization are the primary value path; governance runs throughout the lifecycle to keep growth correct, credible, durable and safe. V1 evidence and the public evaluation draft focus primarily on search and generative AI.
 
-VGO (Visibility Growth Optimization) is an open **growth and optimization system** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO and AEO. The system guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
+VGO (Visibility Growth Optimization) is an open **growth and optimization system** for growing effective, trusted, and sustainable visibility outcomes across the machine-mediated world, including search, direct answers, generative AI, social discovery, agents and emerging discovery surfaces. It encompasses GEO's generative-visibility work and connects it with SEO, AEO and SMO. The system guides diagnosis, decisions, execution, verification and learning; measurement supports these actions rather than replacing them.
 
 VGO begins with real people and high-value intent rather than platforms or raw exposure.
 
@@ -34,7 +34,7 @@ Visibility Growth in VGO should be understood as the continuous growth of Effect
 
 ## 3. Core value chain
 
-**Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
+**Human & Intent → Effective Assets → Effective SEO + Effective AEO + Effective GEO + Effective SMO + Visibility in Emerging Channels → Effective Visibility → Trust → Compare → Recommend → Choose → Measure → Optimize → Learn → Long-term Growth Assets**
 
 Being visible is an intermediate state. VGO asks whether that visibility participates meaningfully in discovery and decision processes.
 
@@ -60,9 +60,15 @@ Effective GEO is the ability of an entity to be correctly understood, credibly c
 
 **Mention ≠ Effective GEO.**
 
-## 8. SEO, AEO, GEO and VGO
+## 7a. Effective SMO
 
-SEO, AEO and GEO are related capability lenses within the higher-level VGO growth system. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
+SMO (Social Media Optimization) addresses social discovery, sharing and accurate representation. Effective SMO requires relevance to user intent, correct entity facts and verifiable evidence under a declared social surface and scope. Exposure, likes and shares are intermediate signals, not proof of effective visibility, recommendation or business outcomes.
+
+SEO, AEO, GEO, SMO and visibility in emerging channels can overlap. “+” in the main chain denotes coverage, not scores to add or a mandatory sequence. Conceptual coverage does not assert that every platform is integrated or that every surface has a published measurement protocol.
+
+## 8. SEO, AEO, GEO, SMO and VGO
+
+SEO, AEO, GEO and SMO are related capability lenses within the higher-level VGO growth system. SEO addresses search discovery; AEO addresses direct answers, whether in search or AI; GEO addresses how generative systems understand, cite, compare and recommend entities. SMO addresses social discovery, sharing and accurate representation. AEO and GEO overlap for generative answers. Their boundaries depend on the observed surface and question; they are not exclusive channels or mandatory sequential stages.
 
 VGO connects them to human intent, owned assets, authority, integrity, action, measurement, learning and outcomes. GEO focuses on how a brand appears in generative AI answers; VGO optimizes effective visibility growth outcomes across the wider machine-mediated world. Ranking, answer inclusion, mentions and citations do not by themselves prove user choice. See [SEO-GEO-VGO.md](SEO-GEO-VGO.md) for the comparison.
 
@@ -130,11 +136,11 @@ New terminology or modules should be introduced only when evidence shows that th
 
 ## 16. GEO 2.0 within the system
 
-VGO is the overarching open methodology, covering SEO, AEO, GEO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
+VGO is the overarching open methodology, covering SEO, AEO, GEO, SMO and emerging discovery surfaces such as agents. GEO 2.0 names the GEO approach within VGO; it does not denote the whole system or change VGO’s definition or hierarchy. Omseek is a product implementation based on VGO.
 
 ```text
 VGO (overarching open methodology)
-  SEO | AEO | GEO [GEO 2.0 method] | agents and emerging surfaces
+  SEO | AEO | GEO [GEO 2.0 method] | SMO | agents and emerging surfaces
   Shared support: intent, facts, evidence, assets, action, verification, integrity, learning
 Separate implementation layer: Omseek and other implementations
 ```
